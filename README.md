@@ -1,8 +1,7 @@
 <h1 align=center>SCIL</h1>
 
-SCIL website - GitHub
+Tractometer website - GitHub
 
-- Teaching
-- Tools
-- Publications
-- Gallery
+- Tractometer
+- Fibercup
+- ISMRM 2015 Tractography Challenge

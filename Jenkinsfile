@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage ('build') {
             steps {
-                sh 'hugo -D -F -b "https://scil.usherbrooke.ca" -d scil.usherbrooke.ca'
+                sh 'hugo -D -F -b "https://tractometer.org" -d tractometer.org'
             }
         }
         stage ('deploy') {
             steps {
-                sh 'rsync --delete -r "$WORKSPACE/scil.usherbrooke.ca/" jenkins@dinf-geospize2:/var/www/scil.usherbrooke.ca/'
+                sh 'rsync --delete -r "$WORKSPACE/tractometer.org/" jenkins@dinf-geospize2:/var/www/tractometer.org/'
             }
         }
     }
