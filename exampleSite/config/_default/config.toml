@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "https://scil.usherbrooke.ca/"
-title = "SCIL"
-theme = "scilus_website"
+baseURL = "https://tractometer.org/"
+title = "Tractometer"
+theme = "tractometer_website"
 # post pagination
 paginate = "3"
 # post excerpt
