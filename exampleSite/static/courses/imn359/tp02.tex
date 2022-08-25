@@ -1,0 +1,186 @@
+\documentclass{article}
+%  File:	tp02.tex
+%  Created:	Sep 16, 2010
+%  Author: 	Maxime Descoteaux
+
+%%%%%%%%%%%%% Definitions %%%%%%%%%%%%%%%%%%
+
+%%%% Largeur et tailles des marges
+\oddsidemargin 0in
+\evensidemargin 0in
+\textwidth 6.5in
+
+
+%%% Pour avoir les accents %%%%%%%%%%%%%%%%%
+%\usepackage[latin1]{inputenc}
+%\usepackage[francais]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+%%%%%%%%%%
+
+
+%%%%%%%%%%%%% Document %%%%%%%%%%%%%%%%%%%%%
+\title{TP2 - IMN359 - Série de Fourier et Transformée de Fourier}
+\author{Maxime Descoteaux}
+\date{\today}
+\begin{document}
+\maketitle
+
+Ce TP 2 est à me remettre par courriel à la date déterminer en classe.
+Vous devez rédiger un rapport avec les solutions en 
+\emph{Latex} et me remettre un zip avec votre code MATLAB. Commentez
+le code et assurez-vous que je puisse reproduire vos 
+résultats et figures. 
+Séparez votre code en différents fichiers pour faciliter la
+lecture. Des points seront attribués pour la qualité du document latex
+et ses figures (5 points), et la qualité du code MATLAB (5 points). 
+
+\section*{}
+\begin{enumerate}
+
+\item {\bf Produit Hermitien. [10 points]} Soit, 
+  $f(x) = \sin(x)$ et $g(x) = \sin(2x)$,
+  calculez et démontrez le résultat de l'intégrale suivante: 
+  $$
+  \int_{-\pi}^{\pi} f(x) g(x) dx.
+  $$
+  Que concluez-vous sur les fonctions $f(x)$ et $g(x)$?
+  \\
+  \\
+  Vérifiez votre résulat en Matlab/Python
+\vspace{1cm}
+
+
+\item  {\bf Périodes [10 pts]}
+  \begin{enumerate}
+    \vspace{0.5cm}
+  \item Quelle est la période foncdamentale de $\sin^2(t)$? Montrez votre
+    démarche. Illustrez votre résultat en Matlab/Python.
+    \vspace{1cm}    
+  \item Quelle est la période fondamentale de 
+    $$
+    f(t) = 2\cos(t) +    \cos(t/3) + 3\cos(t/5).  
+    $$
+    En vous inspirant des notes de cours, illustrez
+    les périodes de chacun des cosinus et illustrez la période
+    fondamentale. Faites un beau graphe représentant les différents
+    cosinus et f(t). Mettez-le dans le latex.
+
+\end{enumerate}
+
+\newpage 
+
+\item {\bf Série de Fourier [35 pts]}
+  \begin{enumerate}
+    \vspace{0.5cm}
+  \item Déterminer les coefficients de la série de Fourier réelle (SF)
+    de $f(t) = \Lambda(t)$ de période 2. % avec T = 2
+    $$
+    \Lambda(t) = \left \{
+      \begin{array}{cl}
+        1 - |t| &   |t| < 1 \\
+        0 & |t| > 1
+      \end{array} \right .
+    $$  
+    \vspace{1cm}
+  \item Ecrivez la SF réelle de $f(t)$. Prenez la période de 2 entre
+    [-1, 1]. 
+    \vspace{1cm}    
+  \item Ecrivez la version complexe de
+    la SF de $f(t)$. 
+    \vspace{1cm}    
+  \item Sur un intervalle de [-20, 20], faites le graphe
+    de $\Lambda(t)$ et de ses SF réelle et complexe en utilisant $100$
+    harmoniques. Mettez le graphe dans le latex. 
+    \vspace{1cm}    
+  \item Calculez l'approximation de la SF complexe
+    faite pour 3 différents nombres d'harmoniques. Calculez
+    l'erreur quadratique moyenne numériquement et analytiquement de la
+    SF complexe pour chacune des approximations. 
+    \vspace{1cm}
+  \item Trouvez et illustrez la SF complexe de f(t) de période 20 suivante:  
+      $$
+      f(t) = \left \{
+        \begin{array}{cl}
+          1   & |t| < 5 \\
+          0   & 5 < |t| < 15 \\
+          1   & |t| > 15
+        \end{array} \right .
+      $$  
+      \vspace{1cm}
+    \item Evaluez la SF de f(t) aux points t = 5, t = 10, t =
+      15. \\
+      (indice: vous devriez me parler des conditions de Dirichlet)
+      
+    \end{enumerate}
+\vspace{1cm}
+
+\newpage
+
+\item {\bf Transformée de Fourier (TF) [15 pts]}
+  \begin{enumerate}
+    \vspace{0.5cm}
+
+%   \item Calculez la TF de $g(t) = a \Pi( \frac{t - b}{c})$. En faisant un subplot,
+%     illustrez g(t), la partie réelle et imaginaire de sa TF, son spectre
+%     de phase et son spectre d'amplitude. Mettez-le dans le latex.
+    
+% $$
+% \Pi(t) = \left \{ 
+%   \begin{array}{cl}
+%     1 & -1/2 \leq t \leq 1/2, \\
+%     0 & \textrm{sinon}
+%     \end{array}
+%   \right .
+%   $$
+  
+  \item Calculez la TF de $g(t) = \delta(2t + 1)$
+  
+    \vspace{1cm}
+
+  %% \item Calculez la TF de $g(t) = \displaystyle \frac{\cos(\pi t)}{\pi(t-1/2)}$. En
+  %%   faisant un subplot, 
+  %%   illustrez g(t), la partie réelle et imaginaire de sa TF, son spectre
+  %%   de phase ($\theta$) et son spectre d'amplitude (avec le
+  %%   $abs$). Mettez-le dans le latex. 
+
+    \vspace{1cm}
+
+  \item Sachant que la transformée de Fourier (TF) de la fonction
+    porte $\Pi(t)$ est le sinus cardinal $\textrm{sinc}(w / 2)$, c-a-d
+    $\textrm{TF}[\Pi(t)] = \textrm{sinc}(w/2)$, 
+    utilisez les propriétés de la Table 8.8 des notes de cours
+    pour résoudre les TF suivantes. 
+    Ecrivez quelle(s) propriété(s) vous utilisez.
+   \vspace{0.5cm}
+    \begin{enumerate}
+    \item $\Pi( \frac{t-1}{3} )$
+   \vspace{0.5cm}
+    \item  $\textrm{sinc}(t) + \textrm{sinc}(3t)$
+    \vspace{1cm}
+    \end{enumerate}
+
+    \vspace{1cm}
+
+\end{enumerate}
+
+\item {\bf Transformée de Fourier (TF) 2D [10 pts]}. \\
+  Calculez et démontrez la
+  transformée de Fourier 2D des 
+  fonctions suivantes. Prenez les propriétés que vous voulez et
+  décrivez ce que vous faisez.  
+  \vspace{1cm}    
+  \begin{enumerate}
+  \item  %$f(x_1, x_2) = \mathbf{1}_{[0,1]^2}(x_1, x_2)$
+    $f(x_1, x_2) = \Pi( x_1 + \frac{1}{2}, x_2 + \frac{1}{2})$ 
+    
+    \vspace{1cm}    
+  \item $f(x_1, x_2) = e^{-(x_1^2 + x_2^2)}$
+  \end{enumerate}
+  \vspace{1cm}  
+
+%  Validez votre résultat avec la fft2 de Matlab/Python. 
+
+\end{enumerate}
+
+\end{document}
