@@ -1,65 +1,116 @@
 # main menu
 [[main]]
-name = "Home"
-url = "/"
+name = "Tractometer"
+URL = "tractometer/"
 weight = 1
+hasChildren = true
+    [[main]]
+    parent = "Tractometer"
+    name = "The Tractometer"
+    identifier = "the_tractometer"
+    URL = "tractometer/description"
+    weight = 1
+
+    [[main]]
+    parent = "Tractometer"
+    name = "Bundle segmentation"
+    identifier = "bundle_segmentation"
+    URL = "tractometer/bundle_segmentation"
+    weight = 2
+
+    [[main]]
+    parent = "Tractometer"
+    name = "The metrics"
+    URL = "tractometer/the_metrics"
+    weight = 3
+
+    [[main]]
+    parent = "Tractometer"
+    name = "References"
+    identifier = "tractometer_references"
+    URL = "tractometer/references"
+    weight = 4
+
+    [[main]]
+    parent = "Tractometer"
+    name = "Contact and support"
+    URL = "tractometer/contact_and_support"
+    weight = 5
 
 [[main]]
-name = "Teaching"
-url = "pricing/"
+name = "Fibercup"
 weight = 2
+hasChildren = true
+
+    [[main]]
+    parent = "Fibercup"
+    name = "Home"
+    identifier = "fibercup_home"
+    URL = "fibercup/home"
+    weight = 1
+
+    [[main]]
+    parent = "Fibercup"
+    name = "Data"
+    identifier = "fibercup_data"
+    URL = "fibercup/data"
+    weight = 2
+
+    [[main]]
+      parent = "Fibercup"
+      name = "References"
+      identifier = "fibercup_references"
+      URL = "fibercup/references"
+      weight = 3
 
 [[main]]
-name = "Tools"
-url = "tools/"
+name = "ISMRM 2015 Challenge"
 weight = 3
+hasChildren = true
 
-[[main]]
-name = "Publications"
-url = "pages/publications"
-weight = 4
+    [[main]]
+      parent = "ISMRM 2015 Challenge"
+      name = "Home"
+      identifier = "imsmrm_home"
+      URL = "ismrm2015/home"
+      weight = 1
+
+    [[main]]
+      parent = "ISMRM 2015 Challenge"
+      name = "Data"
+      identifier = "ismrm_data"
+      URL = "ismrm2015/data"
+      weight = 2
+
+    [[main]]
+      parent = "ISMRM 2015 Challenge"
+      name = "The evaluation process"
+      identifier = "ismrm_evaluation"
+      URL = "ismrm2015/evaluation_process"
+      weight = 3
+
+    [[main]]
+      parent = "ISMRM 2015 Challenge"
+      name = "Results"
+      identifier = "ismrm_results"
+      URL = "ismrm2015/results"
+      weight = 4
+
+    [[main]]
+      parent = "ISMRM 2015 Challenge"
+      name = "Tools"
+      identifier = "ismrm_tools"
+      URL = "ismrm2015/tools"
+      weight = 5
+
+    [[main]]
+      parent = "ISMRM 2015 Challenge"
+      name = "References"
+      identifier = "ismrm_references"
+      URL = "ismrm2015/references"
+      weight = 6
 
 [[main]]
 name = "Gallery"
 url = "gallery/"
-weight = 5
-
-# footer menu left
-# [[footer_left]]
-# name = "About Us"
-# url = "#"
-
-# [[footer_left]]
-# name = "Quick Start"
-# url = "#"
-
-# [[footer_left]]
-# name = "Pricing"
-# url = "pricing/"
-
-
-# footer menu middle
-# [[footer_middle]]
-# name = "Pricing"
-# url = "pricing/"
-
-# [[footer_middle]]
-# name = "Platform"
-# url = "#"
-
-# [[footer_middle]]
-# name = "Features"
-# url = "#"
-
-# footer menu right
-# [[footer_right]]
-# name = "Privacy Policy"
-# url = "privacy-policy/"
-
-# [[footer_right]]
-# name = "Terms & Conditions"
-# url = "terms-conditions/"
-
-# [[footer_right]]
-# name = "FAQ"
-# url = "faq/"
+weight = 4
