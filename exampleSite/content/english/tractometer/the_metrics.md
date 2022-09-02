@@ -4,9 +4,8 @@ subtitle: "Metrics Description"
 # meta description
 description: "This is meta description"
 draft: false
----
 
-EMMA: A ARRANGER: FIGCAPTION : width. Then remove line breaks.
+---
 
 <a href="/images/ismrm2015/vb_cst_left.png">
     <figure style="float:right">

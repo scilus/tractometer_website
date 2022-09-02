@@ -4,38 +4,32 @@ name = "Tractometer"
 URL = "tractometer/"
 weight = 1
 hasChildren = true
-    [[main]]
-    parent = "Tractometer"
-    name = "The Tractometer"
-    identifier = "the_tractometer"
-    URL = "tractometer/description"
-    weight = 1
 
     [[main]]
     parent = "Tractometer"
     name = "Bundle segmentation"
     identifier = "bundle_segmentation"
     URL = "tractometer/bundle_segmentation"
-    weight = 2
+    weight = 1
 
     [[main]]
     parent = "Tractometer"
     name = "The metrics"
     URL = "tractometer/the_metrics"
-    weight = 3
+    weight = 2
 
     [[main]]
     parent = "Tractometer"
     name = "References"
     identifier = "tractometer_references"
     URL = "tractometer/references"
-    weight = 4
+    weight = 3
 
     [[main]]
     parent = "Tractometer"
     name = "Contact and support"
     URL = "tractometer/contact_and_support"
-    weight = 5
+    weight = 4
 
 [[main]]
 name = "Fibercup"
