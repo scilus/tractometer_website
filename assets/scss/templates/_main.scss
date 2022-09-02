@@ -28,7 +28,7 @@
   margin: 8px 0;
 
   &:hover {
-    color: $primary-color;
+    color: $hover-color;
   }
 }
 
@@ -61,7 +61,7 @@ a.post-title {
   display: block;
 
   &:hover {
-    color: $primary-color;
+    color: $hover-color;
   }
 }
 
@@ -91,11 +91,11 @@ a.post-title {
   }
 
   a {
-    color: $text-color;
+    color: $primary-color; // Note Emma: Was text-color. Does not work...
     border-bottom: 1px dotted $border-color;
 
     &:hover {
-      color: $primary-color;
+      color: $hover-color; // Note Emma: Was primary-color
     }
   }
 
@@ -293,7 +293,7 @@ a.post-title {
       color: $text-color;
 
       &:hover {
-        background: $primary-color;
+        background: $hover-color; // Was primary-color
         color: $white;
       }
 

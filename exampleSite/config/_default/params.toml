@@ -4,7 +4,7 @@ logo_width = "400px"
 # OpenGraph / Twitter Card metadata
 description = "Tractometer web site"
 author = "Themefisher"
-image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+image = "images/logo/tractometer.png" # this image will be used as fallback if a page has no image of its own
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 

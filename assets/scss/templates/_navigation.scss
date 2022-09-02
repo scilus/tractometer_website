@@ -11,7 +11,7 @@
   color: $text-color-dark;
 
   &:hover {
-    color: $primary-color;
+    color: $hover-color; // was primary-color
   }
 }
 

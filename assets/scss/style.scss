@@ -1,6 +1,7 @@
 // Color Variables
 {{ with site.Params.variables }}
 $primary-color: {{.primary_color | default "#0AA8A7"}};
+$hover-color: {{.hover_color | default "#066464"}};
 $text-color: {{.text_color | default "#777"}};
 $text-color-dark: {{.text_color_dark | default "#222"}};
 $body-color: {{.body_color | default "#fff"}};

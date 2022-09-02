@@ -187,7 +187,7 @@ select {
     outline: 0; }
 
 a:hover {
-  color: #0AA8A7; }
+  color: #066464; }
 
 .slick-slide {
   outline: 0; }
@@ -331,7 +331,7 @@ a.post-title {
   color: #222;
   display: block; }
   a.post-title:hover {
-    color: #0AA8A7; }
+    color: #066464; }
 
 .content * {
   word-break: break-word;
@@ -353,10 +353,10 @@ a.post-title {
   font-weight: 600; }
 
 .content a {
-  color: #777;
+  color: #0AA8A7;
   border-bottom: 1px dotted #ECECEC; }
   .content a:hover {
-    color: #0AA8A7; }
+    color: #066464; }
 
 .content ol,
 .content ul {

@@ -7,8 +7,14 @@
 
 ######################### site variables ##############################
 # customize your color and font from here.
+#   066464  -> To test with pink
+# 0AA8A7 = light turquoise
+# 066464 = darker turquoise
+#hover_color = Added by Emma.
+
 [params.variables]
 primary_color = "#0AA8A7"
+hover_color = "#066464"
 text_color = "#777"
 text_color_dark = "#222"
 body_color = "#fff"
