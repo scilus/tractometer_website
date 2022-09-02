@@ -1,0 +1,33 @@
+#################### default parameters ################################
+logo = "images/logo/tractometer.png"
+logo_width = "400px"
+# OpenGraph / Twitter Card metadata
+description = "Tractometer web site"
+author = "Themefisher"
+image = "images/logo/tractometer.png" # this image will be used as fallback if a page has no image of its own
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+
+# Type of pages to be rendered with a blog view
+blogCategoryType = "category"
+
+# Preloader
+[preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation buttons
+[navigation_button]
+enable = false
+label = "Get Started"
+link = "contact"
+
+# cookies
+[cookies]
+enable = false
+expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+
+############################# social site ########################
+# None
