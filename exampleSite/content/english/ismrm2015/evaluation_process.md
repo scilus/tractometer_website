@@ -10,7 +10,7 @@ draft: false
 
 ### 1. Segmentation of the bundles
 
-See the <a href="/ismrm_2015_challenge">Tractometer's description of the bundle segmentation process</a>.
+See the <a href="/tractometer/bundle_segmentation">Tractometer's description of the bundle segmentation process</a>.
 The results have originally been published using Recobundles, but an updated version using ROIs is in preparation.
 
 <ul>
@@ -32,4 +32,4 @@ In 2022 however, it became clear that the ISMRM 2015 Challenge was still very mu
 
 ### 2. Metrics
 
-See the <a href="/ismrm_2015_challenge">Tractometer's description of the metrics</a>.
+See the <a href="/tractometer/the_metrics">Tractometer's description of the metrics</a>.

@@ -40,5 +40,5 @@ Another choice is to associate each streamline to the most similar bundle in a l
 
 - The original Tractometer system as published in the <a href="http://www.medicalimageanalysisjournal.com/article/S1361-8415(13)00047-9/abstract" target="_blank"> 2013 paper</a> used regions of interest (ROI) to segment bundles in the Fibercup dataset.
 
-- The <a href="/ismrm_2015_challenge">ISMRM 2015 Tractography Challenge</a> results have originally been published
+- The <a href="/ismrm2015/home">ISMRM 2015 Tractography Challenge</a> results have originally been published
 using Recobundles, but an updated version using ROIs is now offered (2022.08). Scoring data and scripts are available in the Challenge tab.

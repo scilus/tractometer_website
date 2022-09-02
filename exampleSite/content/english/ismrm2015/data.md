@@ -71,7 +71,7 @@ draft: false
 <details>
   <summary>Click to show</summary>
 
-All datasets refer to the same "subject". All files necessary to run the standalone scoring script -- config file, masks of the bundles (along with the ground-truth bundles) -- are available in the <a href="/ismrm_2015_challenge/tools">Tools</a> tab.
+All datasets refer to the same "subject". All files necessary to run the standalone scoring script -- config file, masks of the bundles (along with the ground-truth bundles) -- are available in the <a href="/ismrm2015/tools">Tools</a> tab.
 
 - <a href="{{ DOWNLOAD_URL }}downloads/ISMRM_2015_Tracto_challenge_data_v1_1.zip">Basic dataset</a>. 
    - Updated on 2015-03-06.
