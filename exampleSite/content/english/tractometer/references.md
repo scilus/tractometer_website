@@ -36,7 +36,7 @@ If you need help when visualizing your data / formatting your tractogram:
 </ul>
 
 ** If your study using the Tractometer is based on the <b>FiberCup data</b>, please also see the
-    <a href="/original_fibercup/references">Fibercup references page</a> for additional references to cite.
+    <a href="/fibercup/references">Fibercup references page</a> for additional references to cite.
 
 ** If your study using the Tractometer is based on the <b>ISMRM 2015 challenge data </b>, please also see the
-    <a href="/ismrm_2015_challenge/references">ISMRM challenge references page</a> for additional references to cite.
+    <a href="/ismrm2015/references">ISMRM challenge references page</a> for additional references to cite.

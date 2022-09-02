@@ -55,7 +55,7 @@ Fig 2. Scores with updated bundle masks. Mean scores over all bundles, again ave
 
 The full results of the challenge are presented here. We still refer to the submission IDs to make it easier for users to search for their submissions.
 
-If you are unsure of the submission IDs assigned to your group, please use the <a href="/ismrm_2015_challenge/support">contact page</a> to ask for them.
+If you are unsure of the submission IDs assigned to your group, please use the <a href="/tractometer/contact_and_support">contact page</a> to ask for them.
 
 All submissions files are downloadable through <a href="https://doi.org/10.5281/zenodo.840086">Zenodo
     <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.840086.svg" alt="DOI"> </a>

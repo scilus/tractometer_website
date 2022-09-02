@@ -12,7 +12,7 @@ We also provide you with preformated data. The FiberCup dataset consists of 2 ac
 
 The acquisitions are available in the Nifti format. Each image consists of a b=0 image, followed by the images representing each acquisition direction. The gradient directions file is also available. The same gradient directions were used for each acquisition. The first direction in the file is <b>(0, 0, 0)</b>, which corresponds to the b=0 image as the first subvolume.
 
-<b>IMPORTANT NOTE:</b> If you wish to publish a paper citing the Tractometer and using the FiberCup data, please make sure that you include the three references in the <a href="/original_fibercup/references">References</a> page.
+<b>IMPORTANT NOTE:</b> If you wish to publish a paper citing the Tractometer and using the FiberCup data, please make sure that you include the three references in the <a href="/fibercup/references">References</a> page.
 
 
 ### Acquisition #1:

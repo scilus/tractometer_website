@@ -7,8 +7,7 @@ draft: false
 ---
 
 
-For references on the Tractometer, see the <a href="/original_fibercup/references">Tractometer references page</a> for additional
-references to cite.
+For references on the Tractometer, see the <a href="/tractometer/references">Tractometer references page</a> for additional references to cite.
 
 ### Main ISMRM 2015 challenge papers
 
@@ -34,8 +33,7 @@ Supplementary materials:
 </ul>
 
 
-** The paper mentions the standalone scoring tool. See the <a href="/references">references page</a> for links
-  and information.
+** The paper mentions the standalone scoring tool. See the <a href="tractometer/references">references page</a> for links and information.
 
 ### Original references
 

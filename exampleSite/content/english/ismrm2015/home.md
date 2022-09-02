@@ -12,9 +12,9 @@ The ISMRM 2015 Tractography Challenge seeked to evaluate and compare state-of-th
 
 The task of the challenge was to provide the best possible reconstruction of fiber pathways in a realistically simulated replication of a whole brain diffusion-weighted MR image with properties typical of a clinical acquisition. The contestants were expected to process the challenge dataset using their best processing pipeline, as if they were asked to process the dMRI data of a clinical patient to produce the best possible tractography result. There were no constraints on the processing steps or running time, as we only expected to receive the tractogram file.
 
-The challenge is now closed. However, you can still download the data and work with it. The <a href="/ismrm_2015_challenge/tools">standalone evaluation tool</a> is now available to score new submissions.
+The challenge is now closed. However, you can still download the data and work with it. The <a href="/ismrm2015/tools">standalone evaluation tool</a> is now available to score new submissions.
 
-See <a href="/ismrm_2015_challenge/data">here</a> for a description of the data and the possibility to download it.
+See <a href="/ismrm2015/data">here</a> for a description of the data and the possibility to download it.
 
 ### Organizing Committee
 

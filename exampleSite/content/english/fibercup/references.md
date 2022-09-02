@@ -27,4 +27,4 @@ Please use the following references if you are using the Fibercup dataset in an 
     </li>
 </ul>
 
-For references concerning the Tractometer in general, see the main <a href="/references">References</a> tab.
+For references concerning the Tractometer in general, see the main <a href="/tractometer/references">References</a> tab.
