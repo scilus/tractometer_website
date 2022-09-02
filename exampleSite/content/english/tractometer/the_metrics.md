@@ -82,5 +82,4 @@ The first definition is F1 = TP / (TP + (FP + FN)/2), where TP, FP, FN are true 
 The mean voxel-wise angular error between the main local tractogram fiber directions and the respective ground truth fiber directions. This score is not supported anymore, although it allowed interesting insights. Future work could include adding this score back.
 
  [comment]: <> (Missing directions are penalized with the maximum 90 degree error.)
-
-Values are split in 2 different categories: voxels containing 1 fiber population, and voxels with crossing fiber populations.
+ [comment]: <> (Values are split in 2 different categories: voxels containing 1 fiber population, and voxels with crossing fiber populations.)
