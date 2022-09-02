@@ -24,7 +24,7 @@ Tim Dyrby<sup>5</sup>, Klaus Maier-Hein<sup>1</sup>,
 Bram Stieltjes<sup>6</sup>, Maxime Descoteaux<sup>2</sup> 
 
 <sup>1</sup><a href="http://www.dkfz.de/en/mbi/research/MIC/index.html" target="_blank">Medical Image Computing Group (MIC)</a>, German Cancer Research Center (DKFZ)
-<sup>2</sup><a href="http://scil.dinf.usherbrooke.ca/" target="_blank">Sherbrooke Connectivity Imaging Lab (SCIL)</a>, Université de Sherbrooke
+<sup>2</sup><a href="http://scil.usherbrooke.ca/" target="_blank">Sherbrooke Connectivity Imaging Lab (SCIL)</a>, Université de Sherbrooke
 <sup>3</sup><a href="https://www.irisa.fr/visages/" target="_blank">CNRS, IRISA, UMR 6074 VISAGES project-team</a>, Rennes, France
 <sup>4</sup><a href="http://hardi.epfl.ch/" target="_blank">Signal Processing Lab (LTS5)</a>, Ecole Polytechnique Federale de Lausanne, Switzerland
 <sup>5</sup><a href="http://dig.drcmr.dk/" target="_blank">Diffusion Imaging Group</a>, <a href="http://www.drcmr.dk" target="_blank">Danish Research Centre for Magnetic Resonance (DRCMR)</a>, Denmark

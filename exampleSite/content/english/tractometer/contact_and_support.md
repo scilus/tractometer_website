@@ -13,7 +13,7 @@ For any bug, problem or question while using the Tractometer website, please con
 For other matters, such as the possibility to integrate new phantoms or algorithms, please contact any of those people:
 
 <ul>
-    <li><a href="mailto:m.descoteaux@usherbrooke.ca">Maxime Descoteaux, Ph. D.</a>, director of the <a href="http://scil.dinf.usherbrooke.ca">SCIL</a></li>
+    <li><a href="mailto:m.descoteaux@usherbrooke.ca">Maxime Descoteaux, Ph. D.</a>, director of the <a href="http://scil.usherbrooke.ca">SCIL</a></li>
     <li><a href="mailto:emmanuelle.renauld@usherbrooke.ca">Emmanuelle Renauld, M. SC.</a>, maintainer</li>
 </ul>
 
