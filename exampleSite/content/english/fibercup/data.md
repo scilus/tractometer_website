@@ -16,39 +16,39 @@ The acquisitions are available in the Nifti format. Each image consists of a b=0
 
 
 ### Acquisition #1:
-<ul>
-    <li><a href="{{ DOWNLOAD_URL }}downloads/fibercup/dwi/acq-1_b-650.nii.gz">64 directions, b-value: 650</a></li>
-    <li><a href="{{ DOWNLOAD_URL }}downloads/fibercup/dwi/acq-1_b-1500.nii.gz">64 directions, b-value: 1500</a></li>
-    <li><a href="{{ DOWNLOAD_URL }}downloads/fibercup/dwi/acq-1_b-2000.nii.gz">64 directions, b-value: 2000</a></li>
-</ul>
+
+- <a href="/data/fibercup/dwi/acq-1_b-650.nii.gz">64 directions, b-value: 650</a>
+- <a href="/data/fibercup/dwi/acq-1_b-1500.nii.gz">64 directions, b-value: 1500</a>
+- <a href="/data/fibercup/dwi/acq-1_b-2000.nii.gz">64 directions, b-value: 2000</a>
 
 ### Acquisition #2:
-<ul>
-    <li><a href="{{ DOWNLOAD_URL }}downloads/fibercup/dwi/acq-2_b-650.nii.gz">64 directions, b-value: 650</a></li>
-    <li><a href="{{ DOWNLOAD_URL }}downloads/fibercup/dwi/acq-2_b-1500.nii.gz">64 directions, b-value: 1500</a></li>
-    <li><a href="{{ DOWNLOAD_URL }}downloads/fibercup/dwi/acq-2_b-2000.nii.gz">64 directions, b-value: 2000</a></li>
-</ul>
+
+- <a href="/data/fibercup/dwi/acq-2_b-650.nii.gz">64 directions, b-value: 650</a>
+- <a href="/data/fibercup/dwi/acq-2_b-1500.nii.gz">64 directions, b-value: 1500</a>
+- <a href="/data/fibercup/dwi/acq-2_b-2000.nii.gz">64 directions, b-value: 2000</a>
+
 
 ### Averaged acquisition:
-<ul>
-    <li><a href="{{ DOWNLOAD_URL }}downloads/fibercup/dwi/acq-averaged_b-650.nii.gz">64 directions, b-value: 650</a></li>
-    <li><a href="{{ DOWNLOAD_URL }}downloads/fibercup/dwi/acq-averaged_b-1500.nii.gz">64 directions, b-value: 1500</a></li>
-    <li><a href="{{ DOWNLOAD_URL }}downloads/fibercup/dwi/acq-averaged_b-2000.nii.gz">64 directions, b-value: 2000</a></li>
-</ul>
+
+- <a href="/data/fibercup/dwi/acq-averaged_b-650.nii.gz">64 directions, b-value: 650</a>
+- <a href="/data/fibercup/dwi/acq-averaged_b-1500.nii.gz">64 directions, b-value: 1500</a>
+- <a href="/data/fibercup/dwi/acq-averaged_b-2000.nii.gz">64 directions, b-value: 2000</a>
+
 
 ### Seeding masks:
-<ul>
-    <li><a href="{{ DOWNLOAD_URL }}downloads/fibercup/masks/3x3x3/wm.nii.gz">White matter mask</a></li>
-    <li>Volumes of interest mask (Unavailable, will be back up soon)</li>
-</ul>
+
+- <a href="/data/fibercup/masks/3x3x3/wm.nii.gz">White matter mask</a>
+
+    [comment]: <> (- Volumes of interest mask: Unavailable, will be back up soon)
+
 
 ### Gradients directions:
-<ul>
-    <li><a href="{{ DOWNLOAD_URL }}downloads/fibercup/dwi/grad64.txt">Gradients file</a></li>
-</ul>
+
+- <a href="/data/fibercup/dwi/grad64.txt">Gradients file</a>
+
 
 ### All 3x3x3 data as one archive:
-<ul>
-    <li><a href="{{ DOWNLOAD_URL }}downloads/fibercup/all_data_3x3x3_no_rois_mask.zip">Zip file</a></li>
-    <li><a href="{{ DOWNLOAD_URL }}downloads/fibercup/all_data_3x3x3_no_rois_mask.tar.gz">Tar.gz archive</a></li>
-</ul>
+
+- <a href="/data/fibercup/all_data_3x3x3_no_rois_mask.zip">Zip file</a>
+- <a href="/data/fibercup/all_data_3x3x3_no_rois_mask.tar.gz">Tar.gz archive</a>
+
