@@ -16,6 +16,15 @@ The challenge is now closed. However, you can still download the data and work w
 
 See <a href="/ismrm2015/data">here</a> for a description of the data and the possibility to download it.
 
+You can find the various sections here and in the submenu:
+- <a href="/ismrm2015/data">Data description</a>
+- <a href="/ismrm2015/evaluation_process">Description of the evaluation process</a>
+- <a href="/ismrm2015/results">Results of the analysis of all submissions</a>
+- <a href="/ismrm2015/tools">Links to the standalone tool.</a>
+- <a href="/ismrm2015/references">References</a>
+
+<br>
+
 ### Organizing Committee
 
 Peter Neher<sup>1</sup>, Jean-Christophe Houde<sup>2</sup>, 
