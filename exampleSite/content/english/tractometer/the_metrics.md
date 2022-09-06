@@ -7,7 +7,11 @@ draft: false
 
 ---
 
-No matter the bundle segmentation technique (bundles may be segmented using Recobundles or with regions of interest), here are the bundle metrics that may be measured to compare a recovered bundle with its associated ground truth.
+Once a tractogram has been separated into bundles (see the <a href="/tractometer/bundle_segmentation/">bundle segmentation process description here</a>), you may choose amongst a list of metrics to compare a recovered bundle with its associated ground truth bundle. To score a tractogram, you may use:
+
+- <a href="https://github.com/scilus/scilpy/blob/master/scripts/scil_score_tractogram.py" target="_blank"> scil_score_tractogram.py</a>
+
+In the specific case of the ISMRM 2015 Challenge, a <a href="/ismrm2015/tools/">standalone tool</a> has been created.
 
 ### Global connectivity metrics definitions
 
@@ -26,31 +30,27 @@ All definitions and description are given in the Cote et  al. <a href="http://ww
 
 The number of valid bundles that were correctly reconstructed in the contestant's submission and that exist in the groundtruth data.
 
-####  Valid connections (VC)
-
-The percentage of streamlines that were part of the Valid Bundles.
-
 #### Invalid Bundles (IB)
 
-The number of bundles that seemed realistic but were not matched to a known groundtruth bundle. Those are bundles that can be extracted from the submitted dataset, but do not match any existing bundle.
+The number of bundles that seemed realistic but were not matched to a known groundtruth bundle. Those are bundles that can be extracted from the submitted dataset, but do not match any existing bundle. This metric depends strongly on the segmentation process and must be used with great care.
 
-#### Invalid connections (IC)
+####  Valid streamlines (VS)
 
-The percentage of streamlines that were part of the Invalid Bundles.
+The percentage of streamlines that were part of valid dundles. *NOTE. This metric was previously called valid connections (VC). However, as discussed in our 2022 paper, this may be misleading as it does not include exclusively streamlines reaching two regions of the cortex (connections from the connectivity point of view). It rather englobes any streamline included in the valid bundles, no matter their shape or quality, depending on the bundle segmentation process.*
 
-#### No connection (NC)
+#### Invalid streamlines (IS)
 
-The percentage of streamlines that were not assigned to VC or IC. They normally are very short streamlines, or streamlines that are alone in their shape and position, meaning that when clustered, they still are singletons.
+The percentage of streamlines that were not part of valid bundles. *NOTE. We previously distinguished two categories of invalid streamlines; those that could be regrouped in an invalid bundle (previously IC), and others, that were typically very short streamlines or streamlines alone in their shape and position (previously NC). However, as discussed in our 2022 paper, this depends very strongly on the bundle segmentation process, and we now use a single category.*
 
-** Note that, in the classical Tractometer technique, there was another metric called <i>Valid connections through a wrong path (VCWP)</i>. Since the updated technique doesn't rely on masks to classify streamlines, this category cannot be defined.  Instead, those streamlines are normally assigned to one IB that reaches both endpoints but have a shape that is too different from the groundtruth bundle.
 
 ### Fidelity metrics definitions
 
-The <b>Fidelity metrics</b> aim to give a general overview of the coverage of VB over their groundtruth counterparts. This aims  to complement the global connectivity metrics, since a submission can find a specific valid bundle, but have a very poor coverage, since it may have found only a few streamlines to represent that bundle.
+The fidelity metrics give a general overview of the coverage of VB over their groundtruth counterparts. This aims  to complement the global connectivity metrics, since a submission can find a specific valid bundle, but have a very poor coverage, since it may have found only a few streamlines to represent that bundle. 
 
 <a href="/images/ismrm2015/ol_or_diagram.png">
     <figure style="float:right">
-        <img src="/images/ismrm2015/ol_or_diagram_small.png" width="400px">
+        <img style="display:block; margin-left: auto; margin-right: auto; width: 250px;" 
+             src="/images/ismrm2015/ol_or_diagram_small_orn.png">
         <figcaption>A (red outline) is the discretization of the groundtruth bundle,
                  B (blue outline) is the discretization of the corresponding VB.
                  Overlap is the intersection of A and B over the volume of A,
@@ -58,26 +58,29 @@ The <b>Fidelity metrics</b> aim to give a general overview of the coverage of VB
     </figure>
 </a>
 
+#### True / false positives / negatives, Precision
 
-#### Bundle overlap (OL)
+In the figure above, 
+- TP = |A &#x2229; B|
+- FP = |B \ A|
+- FN = |A \ B|
+- TN = all other voxels
+- Precision = TP/(TP+FP) = |B &#x2229; A| / |B|
+- Specificity = TN / (TN + FP)
 
-Proportion of the voxels within the volume of a ground truth bundle that is traversed by at least one valid streamline associated with the bundle. This value shows how well the tractography result recovers the original volume of the bundle.
+#### Bundle overlap (OL) = Recall = Sensitivity
+
+Proportion of the voxels within the volume of a ground truth bundle that is traversed by at least one valid streamline associated with the bundle. This value shows how well the tractography result recovers the original volume of the bundle. This is also generally known as Recall and may be computed as TP/(TP+FN) = |B &#x2229; A| / |A|. 
 
 #### Bundle overreach (ORn)
 
-Fraction of voxels outside the volume of a ground truth bundle that is traversed  by at least one valid streamline associated with the bundle over the total number of voxels within  the  ground  truth  bundle.  This  value  shows  how  much  the  valid  connections  extend beyond the ground truth bundle volume.
-
-We distinguish two possible computations. ORn = |B\A| / |A|  and OR = |B \ A| / |B|. The second version (OR) is not used anymore, except during the computation of the f1 score (see below). We prefer the signification of the ORn: if we score two bundles that each have two voxels of |B\A|, they will both have the same ORn score. In the original ISMRM 2015 paper, the ORn was used.
+Fraction of voxels outside the volume of a ground truth bundle that is traversed by at least one valid streamline associated with the bundle over the total number of voxels within  the  ground  truth  bundle.  This  value  shows  how  much  the  recovered streamlines extend beyond the ground truth bundle volume. *NOTE. We distinguish two possible computations.* ORn = |B\A| / |A|  *and* OR = |B \ A| / |B| = 1 - Precision. *The second version (OR) is not used anymore. We prefer the signification of the ORn: if we score two bundles that each have two voxels wrong (FP), they will both have the same ORn score. In the original ISMRM 2015 paper, the ORn was used, although it was called OR.*
 
 #### f1 score / DICE score
 
-We can compute the DICE score of the bundle. This is actually equivalent to the f1-score, which can be computed in many ways.
-The first definition is F1 = TP / (TP + (FP + FN)/2), where TP, FP, FN are true positives, false positives and false negatives scores,  in voxels. We can also show that this is equivalent to F1 = 2 * (precision * recall) / (precision + recall), where recall is the overlap score, and precision = (1 - OR), where OR is the overreach score (using OR, not ORn!).
-
+We can compute the DICE score of the bundle. This is actually equivalent to the f1-score, which can be computed in many ways. The first definition is F1 = TP / (TP + (FP + FN)/2). We can also show that this is equivalent to F1 = 2 * (precision * recall) / (precision + recall).
 
 ### Angular error scores
-
-#### Local Angular Error
 
 The mean voxel-wise angular error between the main local tractogram fiber directions and the respective ground truth fiber directions. This score is not supported anymore, although it allowed interesting insights. Future work could include adding this score back.
 

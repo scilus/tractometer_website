@@ -1,0 +1,6 @@
+exampleSite/static/data/ismrm2015/ISMRM_2015_Tracto_challenge_ground_truth_bundles_VTK_v2.zip filter=lfs diff=lfs merge=lfs -text
+exampleSite/static/data/ismrm2015/ISMRM_2015_Tracto_challenge_ground_truth_dwi_v2.zip filter=lfs diff=lfs merge=lfs -text
+exampleSite/static/data/ismrm2015/FilesForSimulation_v1.zip filter=lfs diff=lfs merge=lfs -text
+exampleSite/static/data/ismrm2015/ISMRM_2015_Tracto_challenge_data_v1_1.zip filter=lfs diff=lfs merge=lfs -text
+exampleSite/static/data/ismrm2015/ISMRM_2015_Tracto_challenge_data_with_reversed_phase_v1_0.zip filter=lfs diff=lfs merge=lfs -text
+exampleSite/static/data/ismrm2015/scoring_data_tractography_challenge.tar.gz filter=lfs diff=lfs merge=lfs -text
