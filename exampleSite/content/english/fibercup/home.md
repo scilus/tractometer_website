@@ -19,11 +19,11 @@ However, the original Fibercup dataset has begun showing its limitations. For in
 We still keep everything that is related to the Fibercup runs of the Tractometer online, to help people who may still use it. You can find the various sections here and in the submenu:
     <ul>
         <li><a href="/fibercup/data">Data description</a></li>
-        <li><a href="/fibercup/results">Results</a></li>
         <li><a href="/fibercup/references">References related to the use of the Fibercup dataset</a></li>
     </ul>
 
-  [comment]: <> style=center does not exist, this does the trick
+  [comment]: <> (style=center does not exist, this does the trick)
+  [comment]: <> (results page deleted. Said "results will come" for the past 7 years...)
 
 <img style="display:block; margin-left: auto; margin-right: auto; width: 300px;" 
      src="/images/fibercup/ground_truth_revisited.png">
