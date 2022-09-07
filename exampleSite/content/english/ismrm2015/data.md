@@ -64,32 +64,35 @@ draft: false
 
 All datasets refer to the same "subject". All files necessary to run the standalone scoring script -- config file, masks of the bundles (along with the ground-truth bundles) -- are available in the <a href="/ismrm2015/tools">Tools</a> tab.
 
-- <a href="/data/ismrm2015/ISMRM_2015_Tracto_challenge_data_v1_1.zip">Basic dataset</a>. 
+- <a href="https://scil.usherbrooke.ca/ismrm2015/ISMRM_2015_Tracto_challenge_data_v1_1.zip">Basic dataset</a>. 
    - Updated on 2015-03-06.
    - Changes: new readme file. Contains the DWI, the field map, the T1 image and the gradients information.
    - md5: 6ab9c875709e73ab394a09aac66356ff
   
-- <a href="/data/ismrm2015/ISMRM_2015_Tracto_challenge_data_with_reversed_phase_v1_0.zip">Dataset with additional, reversed-phase b=0</a>. 
+- <a href="https://scil.usherbrooke.ca/ismrm2015/ISMRM_2015_Tracto_challenge_data_with_reversed_phase_v1_0.zip">Dataset with additional, reversed-phase b=0</a>. 
    - Added on 2015-04-01. 
    - Contains the same datasets as the basic dataset, with an additional B=0 image, with the reversed phase-encoding direction. 
    - md5: a08671a9e302d84af18bd391d70cb671
   
-- Ground truth bundles: <a href="/data/ismrm2015/ISMRM_2015_Tracto_challenge_ground_truth_bundles_VTK_v2.zip">VTK format</a>.
+- Ground truth bundles: <a href="https://scil.usherbrooke.ca/ismrm2015/ISMRM_2015_Tracto_challenge_ground_truth_bundles_VTK_v2.zip">VTK format</a>.
     - The 25 basic ground truth bundles. 
     - IMPORTANT NOTE: Data format managing was not very well defined in 2015. A lot of effort was made to ensure that data would be readable by any software. Yet, things have evolved. As of 08.2022, the standalone tool has been updated. The code is now in python3, and tractograms are loaded through Dipy's Stateful Tractogram tools. Previous version of the code applied authomatic 0.5 shifts when loading files as trk, this is NOT done anymore. We have removed the .tck and .trk versions. Please use the safer .fib version (VTK files). These files are easily loadable through Dipy / Scilpy, the two libraries we use.
     - md5: d5696ef555d669c1cfd341c0713c6ff4.
   
-- <a href="/data/ismrm2015/ISMRM_2015_Tracto_challenge_ground_truth_dwi_v2.zip">Ground truth, artifact-free DWI</a>.
+- <a href="https://scil.usherbrooke.ca/ismrm2015/ISMRM_2015_Tracto_challenge_ground_truth_dwi_v2.zip">Ground truth, artifact-free DWI</a>.
     - The ground truth Diffusion Weighted Image, without any artifact. Includes the gradients information. 
     - Was updated on 2015-07-20. 
     - md5: 2bfc6b19136f10e8ee10079fa0c53274
   
-- <a href="/data/ismrm2015/FilesForSimulation_v1.zip">Files used to generate Ground Truth DWI</a>. 
+- <a href="https://scil.usherbrooke.ca/ismrm2015/FilesForSimulation_v1.zip">Files used to generate Ground Truth DWI</a>. 
     - The files of this archive can be used with  <a href="http://docs.mitk.org/nightly/org_mitk_views_fiberfoxview.html" target="_blank">Fiberfox</a> to generate the ground truth DWI datasets. See included Readme file for more information. 
     - Was added on 2015-07-20. 
     - md5: c7c874a28dc24773afcbc5afa6293257
 
   [comment]: <> (md5 TCK: 1fee5fb38db7fcf924984add25d2b370. TRK: 4efe8b07a9cc5cbbd96227ca255ccd5a)
+
+- The ground truth data needed to score your own tractogram is available in the <a href="/ismrm2015/tools"> Tools table </a>.
+
 </details>
 
 ### Archive integrity verification

@@ -1,12 +1,4 @@
 
-INFO: You need git-lfs to commit large data files.
-See here: https://git-lfs.github.com/
-Download the package with the curl command offered, then
-https://git-lfs.github.com/
-git lfs install
-git lfs track exampleSite/static/data/ismrm2015/*.zip
-git add .gitattributes
-
 
 Found how to make a nicer figure caption!
 

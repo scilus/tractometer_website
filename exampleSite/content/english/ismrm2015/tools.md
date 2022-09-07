@@ -14,4 +14,4 @@ This version is also accessible using <a href="https://doi.org/10.5281/zenodo.81
 
 The scoring tool and its documentation are available in this <a href="https://github.com/scilus/ismrm_2015_tractography_challenge_scoring"> Github repository </a> of the <a href="http://scil.dinf.usherbrooke.ca/">SCIL</a>.
 
-In addition to the code, this <a href="/data/ismrm2015/scoring_data_tractography_challenge.tar.gz"> data archive</a> is needed to score a new tractogram.
+In addition to the code, this <a href="https://scil.usherbrooke.ca/ismrm2015/scoring_data_tractography_challenge.tar.gz"> data archive</a> is needed to score a new tractogram.
