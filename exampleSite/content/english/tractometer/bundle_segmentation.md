@@ -31,8 +31,8 @@ However, even for an experimented expert, defining regions of interest large eno
 
 <a href="/images/examples_ROI.png">
     <figure style="float:right">
-        <img src="/images/examples_ROI.png" width="100%" class="center">
-        <figcaption>Examples of endpoint ROIs. Examples C and D show two possible sets of ROIs for the same bundles, with a different degree of dilation.</figcaption>
+        <img src="/images/examples_ROI.png" width="90%" style="display:block; margin-left: auto; margin-right: auto;">
+        <figcaption style="text-align:center">Examples of endpoint ROIs. Examples C and D show two possible sets of ROIs for the same bundles, with a different degree of dilation.</figcaption>
     </figure>
 </a>
 

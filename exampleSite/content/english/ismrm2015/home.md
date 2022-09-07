@@ -12,16 +12,14 @@ The ISMRM 2015 Tractography Challenge seeked to evaluate and compare state-of-th
 
 The task of the challenge was to provide the best possible reconstruction of fiber pathways in a realistically simulated replication of a whole brain diffusion-weighted MR image with properties typical of a clinical acquisition. The contestants were expected to process the challenge dataset using their best processing pipeline, as if they were asked to process the dMRI data of a clinical patient to produce the best possible tractography result. There were no constraints on the processing steps or running time, as we only expected to receive the tractogram file.
 
-The challenge is now closed. However, you can still download the data and work with it. The <a href="/ismrm2015/tools">standalone evaluation tool</a> is now available to score new submissions.
-
-See <a href="/ismrm2015/data">here</a> for a description of the data and the possibility to download it.
+The challenge is now closed. However, you can still download the data and work with it.
 
 You can find the various sections here and in the submenu:
-- <a href="/ismrm2015/data">Data description</a>
-- <a href="/ismrm2015/evaluation_process">Description of the evaluation process</a>
-- <a href="/ismrm2015/results">Results of the analysis of all submissions</a>
-- <a href="/ismrm2015/tools">Links to the standalone tool.</a>
-- <a href="/ismrm2015/references">References</a>
+- <a href="/ismrm2015/dwi_data">Description and download of the **DWI data** that was offered at the time of the submission.</a>
+- <a href="/ismrm2015/dwi_data">Description and download of the **bundles** that were used as ground truth to score submissions</a>.
+- <a href="/ismrm2015/results">**Results** of the scoring of all submissions</a>
+- <a href="/ismrm2015/tools">Links to the standalone **tool**: score your own tractogram!</a>
+- <a href="/ismrm2015/references">**References**</a>
 
 <br>
 
@@ -38,3 +36,7 @@ Bram Stieltjes<sup>6</sup>, Maxime Descoteaux<sup>2</sup>
 <sup>4</sup><a href="http://hardi.epfl.ch/" target="_blank">Signal Processing Lab (LTS5)</a>, Ecole Polytechnique Federale de Lausanne, Switzerland
 <sup>5</sup><a href="http://dig.drcmr.dk/" target="_blank">Diffusion Imaging Group</a>, <a href="http://www.drcmr.dk" target="_blank">Danish Research Centre for Magnetic Resonance (DRCMR)</a>, Denmark
 <sup>6</sup><a href="https://radiologie.unibas.ch/klinik/mitarbeitende/profil/profil/person/bram-stieltjes/" target="_blank">University Hospital Basel, Radiology & Nuclear Medicine Clinic</a>
+
+### News
+
+- (2022-09-08) An example of processed data has been added in the <a href="/ismrm2015/results">ISMRM 2015 tractography challenge results page</a>. A set of curated ground truth bundles has been added in the <a href="/ismrm2015/tractography_data">Tractography data page</a>, along with ROIs that can be used for segmentation during scoring (see the Tractometer's <a href="/tractometer/bundle_segmentation">Bundle segmentation page</a> for more explanation). The code to use them has been added to the <a href="/ismrm2015/tools">Tools page</a>.

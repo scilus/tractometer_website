@@ -9,6 +9,15 @@ draft: false
 
 For references on the Tractometer, see the <a href="/tractometer/references">Tractometer references page</a> for additional references to cite.
 
+
+### 2022 Update paper
+
+An update paper should soon be published, including the suggested cleaning of the ground truth bundle, and the suggested new scoring based on ROI segmentation. Meanwhile, if you use this information, please cite this accepted abstract to the ISMRM 2022 Diffusion Workshop:
+
+- Renauld, E., Théberge, A., Houde, J.-C., Descoteaux, M., *Update of the ISMRM 2015 Tractography Challenge: curated data and enhanced Tractometer scoring system*, SMRM Workshop on Diffusion MRI: From Research to Clinic, October 2022. <a href="/papers/ISMRM_Abstract_DSG.pdf"> Link here </a>
+
+<br>
+
 ### Main ISMRM 2015 challenge papers
 
 <ul>
@@ -35,7 +44,7 @@ Supplementary materials:
 
 ** The paper mentions the standalone scoring tool. See the <a href="tractometer/references">references page</a> for links and information.
 
-### Original references
+#### Original references
 
 For the sake of prosperity, we also leave here the main conclusions that were discussed during the challenge in 2015.
 

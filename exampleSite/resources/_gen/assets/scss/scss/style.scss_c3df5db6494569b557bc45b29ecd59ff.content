@@ -366,11 +366,12 @@ a.post-title {
     margin-bottom: 10px; }
 
 .content ul {
-  padding-left: 0;
+  padding-left: 20px;
   margin-bottom: 20px;
   list-style-type: none; }
   .content ul li {
-    padding-left: 20px;
+    padding-left: 25px;
+    padding-right: 20px;
     position: relative; }
     .content ul li::before {
       position: absolute;

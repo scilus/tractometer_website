@@ -23,6 +23,8 @@ When citing the general Tractometer system, please cite the following references
     </li>
 </ul>
 
+<br>
+
 ### Other tools
 
 If you need help when visualizing your data / formatting your tractogram:

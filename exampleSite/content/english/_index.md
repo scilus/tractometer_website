@@ -11,7 +11,7 @@ banner:
 
 The <i>Tractometer</i> is a tractography evaluation tool. It is the combination of:
 
-- A <a href="/tractometer/bundle_segmentation/">choice of bundle segmentation technique</a> (using ROIs or using Quickbundles).
+- A <a href="/tractometer/bundle_segmentation/">choice of bundle segmentation technique</a> (using ROIs or using Quickbundles/Recobundles).
 - A <a href="/tractometer/the_metrics/">set of chosen metrics</a> comparing the recovered bundles with "ground truth" bundles.
 
 <br>
@@ -25,11 +25,11 @@ The <i> Tractometer </i> can highlight limits of tractography algorithms and con
 - tractography parameters (masking, seeding, stopping criteria)
 - tractography algorithms (deterministic, probabilistic, geodesics, global).
 
-<br>
+<br><br>
 
-<img src="/images/logo/main_page_sub_banner.PNG" width="100%" class="center">
+<img src="/images/logo/main_page_sub_banner.PNG" style="display:block; margin-left: auto; margin-right: auto; width: 100%;" >
 
-<br>
+<br><br>
 
 ### Known projects using the Tractometer
 
@@ -47,7 +47,10 @@ The current goal for the <i>Tractometer</i> is to make it easier for people to s
 
 ### News
 
+- (2022-09-08) The new website should now be available again. If you find any broken links and others bugs, don't hesitate to contact us. Amongst other, many changes were made in the <a href="/ismrm2015/home">ISMRM 2015 Tractography Challenge tab</a>, visit its home page for more details.
+
 - (2022-08-09) The website is being refactored. ISMRM 2015 results will now be in the format of a downloadable file instead of a dynamic table. Data will be available again soon. Meanwhile, see the <a href="/tractometer/contact_and_support">Contact and Support</a> section if you need anything.
 
 - (2017-05-15) The scoring system used in the Challenge is now available. See the <a href="/ismrm2015/tools">tools page</a>.
 
+<br><br>
