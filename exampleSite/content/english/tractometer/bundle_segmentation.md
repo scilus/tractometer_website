@@ -14,7 +14,7 @@ You may define your own segmentation process and then use our tools to <a href="
 
 ### Choice 1: Using ROIs
 
-The first technique uses regions of interests (ROIs) defined by an expert for each bundle. You can use our script offered in scilpy:
+The first technique uses regions of interests (ROIs) defined by an expert for each bundle. Many teams have proposed many tools for this task. You can use scripts offered by our lab in scilpy:
 
 - <a href="https://github.com/scilus/scilpy/blob/master/scripts/scil_score_tractogram.py" target="_blank"> scil_score_tractogram.py</a>
 - (upcoming) scil_segment_from_ROIs.py
@@ -45,8 +45,15 @@ Another choice is to associate each streamline to the most similar bundle in a l
 
 In the specific case of the ISMRM 2015 Challenge, a <a href="/ismrm2015/tools/">standalone tool</a> has been created.
 
+<br>
 
-### Choices made in known projects
+### Other choices
+
+This page is certainly non-exhaustive. Other techniques exist. For instance, machine learning now offers new segmentation possibilities!
+
+<br>
+
+### Choices made in known projects using the Tractometer
 
 - The original Tractometer system published in the <a href="http://www.medicalimageanalysisjournal.com/article/S1361-8415(13)00047-9/abstract" target="_blank"> 2013 paper</a> used regions of interest (ROIs) to segment bundles in the Fibercup dataset.
 

@@ -92,7 +92,7 @@ hasChildren = true
 
     [[main]]
       parent = "ISMRM 2015 Challenge"
-      name = "An example of processed data"
+      name = "Examples of processed data"
       identifier = "ismrm_data_example"
       URL = "ismrm2015/processed_data"
       weight = 4

@@ -16,7 +16,8 @@ The challenge is now closed. However, you can still download the data and work w
 
 You can find the various sections here and in the submenu:
 - <a href="/ismrm2015/dwi_data">Description and download of the **DWI data** that was offered at the time of the submission.</a>
-- <a href="/ismrm2015/dwi_data">Description and download of the **bundles** that were used as ground truth to score submissions</a>.
+- <a href="/ismrm2015/tractography_data">Description and download of the **bundles** that were used as ground truth to score submissions</a>.
+- <a href="/ismrm2015/processed_data">Examples of **processed data**.</a>.
 - <a href="/ismrm2015/results">**Results** of the scoring of all submissions</a>
 - <a href="/ismrm2015/tools">Links to the standalone **tool**: score your own tractogram!</a>
 - <a href="/ismrm2015/references">**References**</a>

@@ -11,7 +11,7 @@ banner:
 
 The <i>Tractometer</i> is a tractography evaluation tool. It is the combination of:
 
-- A <a href="/tractometer/bundle_segmentation/">choice of bundle segmentation technique</a> (using ROIs or using Quickbundles/Recobundles).
+- A <a href="/tractometer/bundle_segmentation/">choice of bundle segmentation technique</a> (ex, using ROIs or using Recobundles).
 - A <a href="/tractometer/the_metrics/">set of chosen metrics</a> comparing the recovered bundles with "ground truth" bundles.
 
 <br>

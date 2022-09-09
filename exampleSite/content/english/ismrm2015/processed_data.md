@@ -9,7 +9,7 @@ draft: false
 
 ### Usage
 
-We offer here example of tractograms created on carefully preprocessed data. The preprocessing choices were made *after* the publication of the <a href="/ismrm2015/references">2015 paper</a>, with knowledge available from the analysis of the results presented above. Feel free to use. For instance, this could be used as training set in a machine learning experiment, to avoid training on the ground truth data. Please visit the  <a href="/ismrm2015/references">References</a> page to cite us if you use this data.
+We offer here examples of tractograms created on carefully preprocessed data. The preprocessing choices were made *after* the publication of the <a href="/ismrm2015/references">2015 paper</a>, with knowledge available from the analysis of the results presented above. Feel free to use. For instance, this could be used as training set in a machine learning experiment, to avoid training on the ground truth data. Please visit the  <a href="/ismrm2015/references">References</a> page to cite us if you use this data.
 
 ### Data creation
 
@@ -20,7 +20,7 @@ The general steps are as in the description <a href="https://tractoflow-document
 
 - DWI: Brain extraction, DWI denoising, Eddy/Topup, N4, Cropping, Normalization, Resampling, Extraction of fODF shells, Computation of fODF metrics.
 - T1: Denoising, N4, Resampling, Brain extraction, Croping, Registration on the DWI, Segmentation of tracking/seeding maps.
-- Tractography: We chose to perform more than one type of tracking: 1) seeding from the WM mask, npv 10, we tried both local tracking and PFT tracking. 2) Seeding from the interface, npv 50, PFT tracking.
+- Tractography: seeding from the WM mask, npv 10, we offer here both local tracking and PFT tracking.
 
 Modified steps were: 
 
