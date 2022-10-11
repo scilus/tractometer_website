@@ -78,16 +78,16 @@ hasChildren = true
 
     [[main]]
       parent = "ISMRM 2015 Challenge"
-      name = "DWI data"
-      identifier = "ismrm_data_dwi"
-      URL = "ismrm2015/dwi_data"
+      name = "The phantom creation process"
+      identifier = "ismrm_phantom_creation"
+      URL = "ismrm2015/phantom_creation"
       weight = 2
 
     [[main]]
       parent = "ISMRM 2015 Challenge"
-      name = "Tractography data"
-      identifier = "ismrm_data_gt"
-      URL = "ismrm2015/tractography_data"
+      name = "DWI data"
+      identifier = "ismrm_data_dwi"
+      URL = "ismrm2015/dwi_data"
       weight = 3
 
     [[main]]
@@ -95,21 +95,21 @@ hasChildren = true
       name = "Examples of processed data"
       identifier = "ismrm_data_example"
       URL = "ismrm2015/processed_data"
-      weight = 4
+      weight = 8
 
     [[main]]
       parent = "ISMRM 2015 Challenge"
-      name = "Results"
+      name = "Submissions results"
       identifier = "ismrm_results"
       URL = "ismrm2015/results"
-      weight = 5
+      weight = 6
 
     [[main]]
       parent = "ISMRM 2015 Challenge"
-      name = "Tools"
+      name = "Scoring tools"
       identifier = "ismrm_tools"
       URL = "ismrm2015/tools"
-      weight = 6
+      weight = 5
 
     [[main]]
       parent = "ISMRM 2015 Challenge"

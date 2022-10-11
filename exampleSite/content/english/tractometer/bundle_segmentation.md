@@ -8,13 +8,13 @@ description: "This is meta description"
 draft: false
 ---
 
-The first step in scoring a tractogram is to group its streamlines into bundles. But **the bundle segmentation process is not an easy task!** When the task is performed by a human, he uses spatial information such as ending points, general trajectory, streamlines shape. He also will naturally tend to group streamlines together and classify them per sub-group. To perform this automatically, a lot of information has to be given to the chosen software.  
+The first step in scoring a tractogram is to group its streamlines into bundles. But **the bundle segmentation process is not an easy task!** When the task is performed by a human, he uses spatial information such as ending points, general trajectory, streamlines shape. To perform this automatically, a lot of information has to be given to the chosen software.  
 
 You may define your own segmentation process and then use our tools to <a href="/tractometer/the_metrics/">score the results</a>. Or you may use our tools described below. We offer two choices of bundle segmentation.
 
 ### Choice 1: Using ROIs
 
-The first technique uses regions of interests (ROIs) defined by an expert for each bundle. Many teams have proposed many tools for this task. You can use scripts offered by our lab in scilpy:
+The first technique uses regions of interests (ROIs) defined by an expert for each bundle. Many teams have proposed various tools for this task. You can use scripts offered by our lab in scilpy:
 
 - <a href="https://github.com/scilus/scilpy/blob/master/scripts/scil_score_tractogram.py" target="_blank"> scil_score_tractogram.py</a>
 - (upcoming) scil_segment_from_ROIs.py
@@ -39,7 +39,7 @@ However, even for an experimented expert, defining regions of interest large eno
 
 ### Choice 2: Using Recobundles
 
-Another choice is to associate each streamline to the most similar bundle in a list of reference bundles using <a href="https://dipy.org/documentation/1.2.0./interfaces/bundle_segmentation_flow/" target="_blank"> Dipy's Recobundles</a>. To accelerate the process, it is possible to first separate the streamlines in small groups of similar streamlines using <a href="https://dipy.org/documentation/1.2.0./examples_built/segment_quickbundles/" target="_blank"> Quickbundles</a>. All streamlines from a group are associated to the same bundle. It is also possible to define a threshold on the similarity metric (the MDF). If no reference bundle is similar enough, the streamlines are categorized as false positives. To use it, you may visit Dipy's website. To segment a tractogram based on similarity between its streamlines rather than comparing it with ground truth bundles, you may use:
+Another choice is to associate each streamline to the most similar bundle in a list of reference bundles using <a href="https://dipy.org/documentation/1.2.0./interfaces/bundle_segmentation_flow/" target="_blank"> Dipy's Recobundles</a>. To accelerate the process, it is possible to first separate the streamlines in small groups of similar streamlines using <a href="https://dipy.org/documentation/1.2.0./examples_built/segment_quickbundles/" target="_blank"> Quickbundles</a>. All streamlines from a group are associated to the same reference bundle. It is possible to define a threshold on the similarity metric (the MDF). If no reference bundle is similar enough, the streamlines are categorized as false positives. To use Recobundles, you may visit Dipy's website. To use Quickbundles, you may use: 
 
 - <a href="https://github.com/scilus/scilpy/blob/master/scripts/scil_compute_qbx.py" target="_blank"> scil_compute_qbx.py</a>
 

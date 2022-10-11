@@ -8,33 +8,6 @@ draft: false
 ---
 
 
-### Data generation
-
-<details>
-  <summary>Click to show</summary>
-  
-   1. White matter bundles were manually segmentated from a HCP subject's tractogram based on definitions found in <a href="http://www.springer.com/medicine/neurology/book/978-3-642-20455-5" target="_blank">Diffusion Tensor Imaging, Introduction and Atlas</a>, which was written by challenge coorganizers Bram Stieltjes and Klaus Maier-Hein, as well as R.M. Brunner and F.B. Laun.
-
-   2. The ISMRM 2015 Tractography challenge was based on an artificial phantom generated using the <a href="http://docs.mitk.org/2014.10/org_mitk_views_fiberfoxview.html" target="_blank">Fiberfox</a>, based on these 25 manually segmented bundles, which serve as ground truth models. They are used as **artificial fibers** to generate the raw diffusion MRI dataset, as described in the <a href="http://onlinelibrary.wiley.com/doi/10.1002/mrm.25045/abstract" target="_blank">Fiberfox paper</a> by Neher et al. Hence, this is just another way to generate a phantom dataset based on realistic looking streamline fibers. The aim was to create a realistic, clinical-style dataset that provided challenging bundles configurations.
-
-<img src="/images/ismrm2015/data_creation_process.png" height="550px" style="display: block; margin: 0 auto">
-
-<br>
-
-  The diffusion acquisition was simulated with the following parameters:
-
-  - Phase direction: Y
-  - No acceleration factor
-  - No partial Fourier
-  - TE = 108ms 
-  - Dwell time = 1ms
-
-** Important note about the Field Map: Please note that the same fieldmap is applied to all image volumes, regardless of head motion. This is a limitation of the current generation technique. In reality, the fieldmap should move with the head, but this is currently not the case in the simulated dataset.
-
-<br>
-
-</details>
-
 ### Data description
 
 The clinical-style challenge dataset consists of a 2mm isotropic diffusion acquisition, with 32 gradient directions, b-value=1000 s/mm<sup>2</sup>. It also contains one b=0 image and an optional b=0 volume, with reversed phase-encoding direction. Additionnaly, a T1-like image is provided.

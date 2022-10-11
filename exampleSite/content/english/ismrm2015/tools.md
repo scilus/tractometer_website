@@ -8,10 +8,36 @@ draft: false
 
 The code below allows anyone interested to **score their own tractogram**. 
 
-Please be careful: verify that final segmented bundles are well aligned with your initial tractogram, showing that space attributes were correctly interpreted. 
 
-These data archives are needed to score a new tractogram. They contain the same bundles as in the <a href="/ismrm2015/tractography_data"> Tractography data page </a>, along with bundle masks and other files necessary to run the code.
 
+### History: why we made two versions
+
+Together with the updated ground truth tractogram (see description in the phantom creation process page), we have also updated the bundle segmentation technique. Why?
+
+The original goal imagined by the leading team of the Challenge was to evaluate all submissions using ROI segmentation. However, during the initial evaluation phase, it became evident that the ROIs would be very difficult to create in this dataset simulating real-world conditions. For example, the classical approach uses masks of the endpoints of ground truth bundles to determine if streamlines are valid connections. However, with that data, endpoints masks being only 1 voxel thick and did not suffice to recover streamlines in most cases. It was evident that the manual creation of ROIs that would work well, even considering the big variability amongst submission, would be very time-consuming. The team had a close deadline to be able to present their result at the Diffusion Study Group Worshop, and the choice that was made was to use Recobundles, a novel bundle segmentation tool at the time. That choice offered a quick way to obtain acceptable results, enough to lead to a good analysis of submissions, providing insightful conclusions of the challenge, published in the 2017 paper.
+
+In 2022 however, it became clear that the ISMRM 2015 Challenge was still very much used by the tractography community. A careful examination of the Recobundles results on the initial submissions led our team to decide to tackle the difficult task of manual creating ROIs that would allow a more precise and refined segmentation of the bundles.
+
+
+- See the <a href="/tractometer/bundle_segmentation">Tractometer's description of the bundle segmentation processes</a>.
+
+- See the <a href="/ismrm2015/tools">Tools page</a> to download the code and **score your own tractogram**.
+
+<br>
+
+
+### Preparing your tractogram
+
+** **AN IMPORTANT NOTE ON FILE FORMAT**: Data format managing was not very well defined in 2015. A lot of effort was made to ensure that data would be readab>
+
+
+
+  Please be careful: verify that final segmented bundles are well aligned with your initial tractogram, showing that space attributes were correctly interpre>
+
+
+
+Ground truth data + Code
+########################
 
 <table style="border:1px solid #0AA8A7;width:80%;margin-left:auto; margin-right:auto;">
 
@@ -47,3 +73,7 @@ These data archives are needed to score a new tractogram. They contain the same 
 </tr>
 
 </table>
+
+
+
+  [comment]: <> (md5 TCK: 1fee5fb38db7fcf924984add25d2b370. TRK: 4efe8b07a9cc5cbbd96227ca255ccd5a)
