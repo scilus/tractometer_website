@@ -78,38 +78,45 @@ hasChildren = true
 
     [[main]]
       parent = "ISMRM 2015 Challenge"
-      name = "Data"
-      identifier = "ismrm_data"
-      URL = "ismrm2015/data"
+      name = "The phantom creation process"
+      identifier = "ismrm_phantom_creation"
+      URL = "ismrm2015/phantom_creation"
       weight = 2
 
     [[main]]
       parent = "ISMRM 2015 Challenge"
-      name = "The evaluation process"
-      identifier = "ismrm_evaluation"
-      URL = "ismrm2015/evaluation_process"
+      name = "DWI data"
+      identifier = "ismrm_data_dwi"
+      URL = "ismrm2015/dwi_data"
       weight = 3
 
     [[main]]
       parent = "ISMRM 2015 Challenge"
-      name = "Results"
-      identifier = "ismrm_results"
-      URL = "ismrm2015/results"
-      weight = 4
+      name = "Examples of processed data"
+      identifier = "ismrm_data_example"
+      URL = "ismrm2015/processed_data"
+      weight = 6
 
     [[main]]
       parent = "ISMRM 2015 Challenge"
-      name = "Tools"
+      name = "Submissions results"
+      identifier = "ismrm_results"
+      URL = "ismrm2015/results"
+      weight = 5
+
+    [[main]]
+      parent = "ISMRM 2015 Challenge"
+      name = "Scoring tools"
       identifier = "ismrm_tools"
       URL = "ismrm2015/tools"
-      weight = 5
+      weight = 4
 
     [[main]]
       parent = "ISMRM 2015 Challenge"
       name = "References"
       identifier = "ismrm_references"
       URL = "ismrm2015/references"
-      weight = 6
+      weight = 7
 
 [[main]]
 name = "Gallery"

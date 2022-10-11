@@ -19,12 +19,10 @@ All definitions and description are given in the Cote et  al. <a href="http://ww
 
 <a href="/images/ismrm2015/vb_ib_nc.png">
     <figure style="float:right">
-        <img src="/images/ismrm2015/vb_ib_nc.png" width="100%">
-        <figcaption>A) VB: The groundtruth left CST bundle in red, and the left CST extracted from one submission in blue. B) IB: The groundtruth left UF (blue), groundtruth left ILF (pink), and an invalid bundle going from the start of the UF to the end of the ILF in green. This bundle is invalid, and the tracking algorithm 'merged' both bundles. C) NC: A subset of NC extracted from a submission. Notice how most of them are very short and do not seem to fit with a realistic bundle.</figcaption>
+        <img style="display: block; margin: 0 auto" src="/images/ismrm2015/vb_ib_nc.png" width="80%">
+        <figcaption style="text-align:center">A) VB: The groundtruth left CST bundle in red, and the left CST extracted from one submission in blue. <br> B) IB: The groundtruth left UF (blue), groundtruth left ILF (pink), and an invalid bundle going from the start of the UF to the end of the ILF in green. <br> This bundle is invalid, and the tracking algorithm 'merged' both bundles. <br>C) NC: A subset of NC extracted from a submission. Notice how most of them are very short and do not seem to fit with a realistic bundle.</figcaption>
     </figure>
 </a>
-
- [comment]: <> (Pour faire ça beau: double bracket < faq "VB" > ferme les double-bracket.  blabla puis entre double bracket encore: </ faq > )
 
 #### Valid Bundles (VB)
 
@@ -32,15 +30,21 @@ The number of valid bundles that were correctly reconstructed in the contestant'
 
 #### Invalid Bundles (IB)
 
-The number of bundles that seemed realistic but were not matched to a known groundtruth bundle. Those are bundles that can be extracted from the submitted dataset, but do not match any existing bundle. This metric depends strongly on the segmentation process and must be used with great care.
+The number of bundles that seemed realistic but were not matched to a known groundtruth bundle. Those are bundles that can be extracted from the submitted dataset, but do not match any existing bundle. 
+
+*NOTE. This metric depends strongly on the segmentation process and must be used with great care. Grouping invalid streamlines together into invalid bundles may give great insights on pathways that are easier to (wrongly) track, as shown on figure above, from the ISMRM 2015 Tractography Challenge paper. However, we believe it should not be used as a score, i.e. as indicator of the quality of a tractogram.*
 
 ####  Valid streamlines (VS)
 
-The percentage of streamlines that were part of valid dundles. *NOTE. This metric was previously called valid connections (VC). However, as discussed in our 2022 paper, this may be misleading as it does not include exclusively streamlines reaching two regions of the cortex (connections from the connectivity point of view). It rather englobes any streamline included in the valid bundles, no matter their shape or quality, depending on the bundle segmentation process.*
+The percentage of streamlines that were part of valid dundles. 
+
+*NOTE. This metric was previously called valid connections (VC). However, this may be misleading as it does not include exclusively streamlines reaching two regions of the cortex (connections from the connectivity point of view). It rather englobes any streamline included in the valid bundles, no matter their shape or quality, depending on the bundle segmentation process. As of 2022, we have modified this terminology.*
 
 #### Invalid streamlines (IS)
 
-The percentage of streamlines that were not part of valid bundles. *NOTE. We previously distinguished two categories of invalid streamlines; those that could be regrouped in an invalid bundle (previously IC), and others, that were typically very short streamlines or streamlines alone in their shape and position (previously NC). However, as discussed in our 2022 paper, this depends very strongly on the bundle segmentation process, and we now use a single category.*
+The percentage of streamlines that were not part of valid bundles. 
+
+*NOTE. We previously distinguished two categories of invalid streamlines; those that could be regrouped in an invalid bundle (previously IC), and others, that were typically very short streamlines or streamlines alone in their shape and position (previously NC). However, this depends very strongly on the bundle segmentation process. As of 2022, we now suggest a single category.*
 
 
 ### Fidelity metrics definitions
@@ -48,13 +52,10 @@ The percentage of streamlines that were not part of valid bundles. *NOTE. We pre
 The fidelity metrics give a general overview of the coverage of VB over their groundtruth counterparts. This aims  to complement the global connectivity metrics, since a submission can find a specific valid bundle, but have a very poor coverage, since it may have found only a few streamlines to represent that bundle. 
 
 <a href="/images/ismrm2015/ol_or_diagram.png">
-    <figure style="float:right">
+    <figure style="float:right; width:100%">
         <img style="display:block; margin-left: auto; margin-right: auto; width: 250px;" 
              src="/images/ismrm2015/ol_or_diagram_small_orn.png">
-        <figcaption>A (red outline) is the discretization of the groundtruth bundle,
-                 B (blue outline) is the discretization of the corresponding VB.
-                 Overlap is the intersection of A and B over the volume of A,
-                 Overreach is B excluding A, over the volume of A.</figcaption>
+        <figcaption style="text-align:center">A (red outline) is the discretization of the groundtruth bundle, B (blue outline) is the discretization of the corresponding VB. <br> Overlap is the intersection of A and B over the volume of A. <br> Overreach is B excluding A, over the volume of A.</figcaption>
     </figure>
 </a>
 
