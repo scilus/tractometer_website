@@ -95,21 +95,21 @@ hasChildren = true
       name = "Examples of processed data"
       identifier = "ismrm_data_example"
       URL = "ismrm2015/processed_data"
-      weight = 8
+      weight = 6
 
     [[main]]
       parent = "ISMRM 2015 Challenge"
       name = "Submissions results"
       identifier = "ismrm_results"
       URL = "ismrm2015/results"
-      weight = 6
+      weight = 5
 
     [[main]]
       parent = "ISMRM 2015 Challenge"
       name = "Scoring tools"
       identifier = "ismrm_tools"
       URL = "ismrm2015/tools"
-      weight = 5
+      weight = 4
 
     [[main]]
       parent = "ISMRM 2015 Challenge"

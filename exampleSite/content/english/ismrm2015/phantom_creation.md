@@ -9,9 +9,7 @@ draft: false
 
 ### Data generation in 2015
  
-   1. White matter bundles were manually segmentated from a HCP subject's tractogram based on definitions found in <a href="http://www.springer.com/medicine/neurology/book/978-3-642-20455-5" target="_blank">Diffusion Tensor Imaging, Introduction and Atlas</a>, which was written by challenge coorganizers Bram Stieltjes and Klaus Maier-Hein, as well as R.M. Brunner and F.B. Laun.
-   
-   To create these 25 bundles, an expert segmented meticulously streamlines of a global tracking on HCP data, the bundle masks were computed, and bundle-specific deterministic tracking was performed by seeding extensively inside each bundle mask. The final tractogram was then used in Fiberfox to simulate the fitting DWI that can be found in the <a href="/ismrm2015/dwi_data">DWI data page</a>. 
+   1. White matter bundles were manually segmentated from a HCP subject's tractogram based on definitions found in <a href="http://www.springer.com/medicine/neurology/book/978-3-642-20455-5" target="_blank">Diffusion Tensor Imaging, Introduction and Atlas</a>, which was written by challenge coorganizers Bram Stieltjes and Klaus Maier-Hein, as well as R.M. Brunner and F.B. Laun. To create these 25 bundles, an expert segmented meticulously streamlines of a global tracking on HCP data, the bundle masks were computed, and bundle-specific deterministic tracking was performed by seeding extensively inside each bundle mask. The final tractogram was then used in Fiberfox to simulate the fitting DWI that can be found in the <a href="/ismrm2015/dwi_data">DWI data page</a>. 
 
    2. The ISMRM 2015 Tractography challenge was based on an artificial phantom generated using the <a href="http://docs.mitk.org/2014.10/org_mitk_views_fiberfoxview.html" target="_blank">Fiberfox</a>, based on these 25 manually segmented bundles, which serve as ground truth models. They are used as **artificial fibers** to generate the raw diffusion MRI dataset, as described in the <a href="http://onlinelibrary.wiley.com/doi/10.1002/mrm.25045/abstract" target="_blank">Fiberfox paper</a> by Neher et al. Hence, this is just another way to generate a phantom dataset based on realistic looking streamline fibers. The aim was to create a realistic, clinical-style dataset that provided challenging bundles configurations.
 
@@ -31,9 +29,10 @@ draft: false
 
 #### 2022 update
 
-##### History: Why we have two versions
 
 The goal of the challenge was to analyze the quality of bundles created by participating teams and compare the associated pipelines. Bundles were analyzed as whole entities, but the quality of individual streamlines composing them was not verified. In fact, they were not verified in the ground truth bundles either. Ground truth data contained short / long / looping / broken streamlines.
+
+We cleaned the ground truth tractogram. The new data is offered, together with the new scoring system, in the tools page.
 
 <img style="display:block; margin-left: auto; margin-right: auto; width: 70%;" 
   src="/images/ismrm2015/looping_fibers.png">

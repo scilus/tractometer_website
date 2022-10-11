@@ -28,16 +28,14 @@ In 2022 however, it became clear that the ISMRM 2015 Challenge was still very mu
 
 ### Preparing your tractogram
 
-** **AN IMPORTANT NOTE ON FILE FORMAT**: Data format managing was not very well defined in 2015. A lot of effort was made to ensure that data would be readab>
-
+** **AN IMPORTANT NOTE ON FILE FORMAT**: Data format managing was not very well defined in 2015. A lot of effort was made to ensure that data would be readable by any software. Yet, things have evolved. As of 08.2022, the standalone tool has been updated. The code is now in python3, and tractograms are loaded through Dipy's Stateful Tractogram tools. Previous version of the code applied authomatic 0.5 shifts when loading files as trk, this is NOT done anymore. We have removed the .tck and .trk versions. Please use the safer .fib version (VTK files). These files are easily loadable through Dipy / Scilpy, the two libraries we use. The .fib files are also the ones included in the whole scoring archive in the Tools page.
 
 
   Please be careful: verify that final segmented bundles are well aligned with your initial tractogram, showing that space attributes were correctly interpre>
 
 
 
-Ground truth data + Code
-########################
+### Ground truth data + Code
 
 <table style="border:1px solid #0AA8A7;width:80%;margin-left:auto; margin-right:auto;">
 
@@ -47,8 +45,10 @@ Ground truth data + Code
 - Scripts are offered in <a href="https://github.com/scilus/scilpy"> scilpy</a>. In can be used in a terminal with a command line such as:
 
     <p style="background-color:#323232; color:#e5e5e5"> 
+    <br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     python scil_score_tractogram.py [more information to come] 
+    <br>
     </p>
 
 - Should be used with [this scoring_data]. It contains the bundles, the bundles masks and the configuration file to be used with the mentionned script.
@@ -63,8 +63,10 @@ Ground truth data + Code
 
 - <a href="https://github.com/scilus/ismrm_2015_tractography_challenge_scoring"> Link to the Github repository containing the code </a>. When used to score the 2015 submissions, it generates the exact same results as in the paper. Compared to the initial version, the only changes concern processing speed. Any remaining issue was already present at the time. An example of command line is given in the README file.
     <p style="background-color:#323232; color:#e5e5e5"> 
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       ./scripts/score_tractogram.py YOUR_TRACTOGRAM_FILE scoring_data/ results/
+     <br>
     </p>
 
 - The version v1.0.1 released in 2015, in python2 and deprecated, is still available. <a href="https://doi.org/10.5281/zenodo.810130"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.810130.svg" alt="DOI"></a>

@@ -15,11 +15,11 @@ The task of the challenge was to provide the best possible reconstruction of fib
 The challenge is now closed. However, you can still download the data and work with it.
 
 You can find the various sections here and in the submenu:
-- <a href="/ismrm2015/dwi_data">Description and download of the **DWI data** that was offered at the time of the submission.</a>
-- <a href="/ismrm2015/tractography_data">Description and download of the **bundles** that were used as ground truth to score submissions</a>.
-- <a href="/ismrm2015/processed_data">Examples of **processed data**.</a>.
-- <a href="/ismrm2015/results">**Results** of the scoring of all submissions</a>
+- <a href="/ismrm2015/phantom_creation">Description of the phantom creation process</a>.
+- <a href="/ismrm2015/dwi_data">Download page for the **DWI data** that was offered at the time of the submission.</a>
 - <a href="/ismrm2015/tools">Links to the standalone **tool**: score your own tractogram!</a>
+- <a href="/ismrm2015/results">**Results** of the scoring of all submissions</a>
+- <a href="/ismrm2015/processed_data">Examples of **processed data**.</a>.
 - <a href="/ismrm2015/references">**References**</a>
 
 <br>
