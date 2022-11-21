@@ -14,6 +14,11 @@ When citing the general Tractometer system, please cite the following references
 
 - Côté, M.-A., Boré, A., Girard, G., Houde, J.-C., and Descoteaux, M. (2012). <a href="{% static 'papers/Cote_etal_Tractometer.pdf' %}" target="_blank">Tractometer: Online Evaluation System for Tractography</a>, MICCAI.
 
+
+** If your study using the Tractometer is based on the <b>FiberCup data</b>, please also see the <a href="/fibercup/references">Fibercup references page</a> for additional references to cite.
+
+** If your study using the Tractometer is based on the <b>ISMRM 2015 challenge data </b>, please also see the <a href="/ismrm2015/references">ISMRM challenge references page</a> for additional references to cite.
+
 <br>
 
 ### Other tools
@@ -26,6 +31,3 @@ If you need help when visualizing your data / formatting your tractogram:
 - <a href="https://scil-documentation.readthedocs.io/en/latest/our_tools/scilpy.html" target="_blank">Scilpy</a> offers many scripts to manipulate dMRI data and tractograms.
 
 
-** If your study using the Tractometer is based on the <b>FiberCup data</b>, please also see the <a href="/fibercup/references">Fibercup references page</a> for additional references to cite.
-
-** If your study using the Tractometer is based on the <b>ISMRM 2015 challenge data </b>, please also see the <a href="/ismrm2015/references">ISMRM challenge references page</a> for additional references to cite.
