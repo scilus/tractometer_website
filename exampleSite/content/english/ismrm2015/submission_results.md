@@ -1,10 +1,18 @@
 ---
 title: "The ISMRM 2015 Tractography Challenge"
-subtitle: "The results"
+subtitle: "2015 submissions and results"
 # meta description
 description: "This is meta description"
 draft: false
 ---
+
+
+
+### Link to all the raw submission files
+
+All submissions files are downloadable through <a href="https://doi.org/10.5281/zenodo.840086">Zenodo. <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.840086.svg" alt="DOI"> </a>
+
+[comment]: <> (If you are unsure of the submission IDs assigned to your group, please use the <a href="/tractometer/contact_and_support">contact page</a> to ask for them.)
 
 
 
@@ -66,10 +74,6 @@ You may download the details here:
 <br>
 
 
-### Link to all the raw submission files
+### More
 
-All submissions files are downloadable through <a href="https://doi.org/10.5281/zenodo.840086">Zenodo. <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.840086.svg" alt="DOI"> </a>
-
-[comment]: <> (If you are unsure of the submission IDs assigned to your group, please use the <a href="/tractometer/contact_and_support">contact page</a> to ask for them.)
-
-
+Fore comparison with more recent results, you may refer to the <a href="/results_ismrm/processed_data"> Processed Data </a> page where we offer results on our lab's latest tractogram. 

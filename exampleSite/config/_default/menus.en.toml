@@ -99,7 +99,7 @@ hasChildren = true
 
     [[main]]
       parent = "ISMRM 2015 Challenge"
-      name = "Submissions results"
+      name = "2015 submissions and results"
       identifier = "ismrm_results"
       URL = "ismrm2015/results"
       weight = 5

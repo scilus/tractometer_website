@@ -9,7 +9,7 @@ draft: false
 
 ### Usage
 
-We offer here examples of tractograms created on carefully preprocessed data. The preprocessing choices were made *after* the publication of the <a href="/ismrm2015/references">2015 paper</a>, with knowledge available from the analysis of the results presented above. Feel free to use. For instance, this could be used as training set in a machine learning experiment, to avoid training on the ground truth data. Please visit the  <a href="/ismrm2015/references">References</a> page to cite us if you use this data.
+We offer here examples of tractograms created on carefully preprocessed data. The preprocessing choices were made *after* the publication of the <a href="/ismrm2015/references">2017 paper</a>, with knowledge available from the analysis of the results presented above. Feel free to use. For instance, this could be used as training set in a machine learning experiment, to avoid training on the ground truth data. Please visit the  <a href="/ismrm2015/references">References</a> page to cite us if you use this data.
 
 ### Data creation
 
