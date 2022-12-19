@@ -20,9 +20,9 @@ All submissions files are downloadable through <a href="https://doi.org/10.5281/
 ### 2015: Results using Recobundles for segmentation
 
 
-These are the results as presented in the original paper (initial data, scoring based on segmentation with **Recobundles**). 
+These are the results as presented in Maier-Hein2017 (scoring based on segmentation with **Recobundles**). 
 
-**Please be careful!** Wrong numbers have sometimes been published in papers citing the ISMRM Challenge paper. Also, numbers previously contained on this page also presented errors. Always refer to this new table. They are in accordance with data published in the 2015 paper.
+**Please be careful!** Wrong numbers have sometimes been published in articles citing the ISMRM Challenge. Numbers previously contained on this page also presented errors. Always refer to this new table, updated as of 2022. They are in accordance with data published in 2017.
 
 <a href="/results_ismrm/submissions_scoring/initial/summary_as_image.png">
     <figure style="float:right">

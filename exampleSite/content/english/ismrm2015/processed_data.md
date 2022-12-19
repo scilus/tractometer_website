@@ -28,6 +28,6 @@ We verified data quality by scoring the three tractograms with the ROI-based sco
 <a href="/results_ismrm/example_of_processed_data/withReversed_scoring_2022/Results_WithReversed.xlsx">
     <figure style="float:right">
         <img src="/results_ismrm/example_of_processed_data/withReversed_scoring_2022/Results_WithReversed.jpg" width="90%">
-        <figcaption style="text-align:center">Results of the ROI-based scoring on the withReverse processed data. Click on the image to download as an excel file.</figcaption>
+        <figcaption style="text-align:center">Results of the ROI-based scoring on the withReversed processed data. Click on the image to download as an excel file.</figcaption>
     </figure>
 </a>
