@@ -10,15 +10,10 @@ draft: false
 
 ### Link to all the raw submission files
 
-All submissions files are downloadable through <a href="https://doi.org/10.5281/zenodo.840086">Zenodo. <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.840086.svg" alt="DOI"> </a>
-
-[comment]: <> (If you are unsure of the submission IDs assigned to your group, please use the <a href="/tractometer/contact_and_support">contact page</a> to ask for them.)
+All submissions files are downloadable through <a href="https://doi.org/10.5281/zenodo.840086">Zenodo. <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.840086.svg" alt="DOI"> </a>. This is the link to the raw submitted files, in their original format. Format and headers of some files were modified prior to usage, in an effort to compensate for the lack of clarity in format managements in 2015. For more information, contact us.
 
 
-
-
-### 2015: Results using Recobundles for segmentation
-
+### Maier-Hein 2017: Results using Recobundles for segmentation
 
 These are the results as presented in Maier-Hein2017 (scoring based on segmentation with **Recobundles**). 
 
@@ -26,28 +21,13 @@ These are the results as presented in Maier-Hein2017 (scoring based on segmentat
 
 <a href="/results_ismrm/submissions_scoring/initial/summary_as_image.png">
     <figure style="float:right">
-        <img src="/results_ismrm/submissions_scoring/initial/summary_as_image.png" width="100%">
-        <figcaption style="text-align:center">Fig 1. Initial scores. Mean scores over all bundles, again averaged over all submitted tractograms.</figcaption>
+        <img src="/results_ismrm/submissions_scoring/initial/WEB_initial_scores_cleaned.xlsx" width="100%">
+        <figcaption style="text-align:center">Fig 1. Initial scores. Mean scores over all bundles, again averaged over all submitted tractograms. Click on the image to download detailed scores as an excel file.</figcaption>
     </figure>
 </a>
 
 
-<details>
-  <summary>Click to download detailed scores</summary>
-
-You may download the details here:
-
-- <a href="/results_ismrm/submissions_scoring/initial/WEB_initial_scores_cleaned.xlsx">Download as Excel file</a>
-- <a href="/results_ismrm/submissions_scoring/initial/as_html/WEB_initial_scores_cleaned.html">View results in your browser</a>
-- Load results printed as PDF:
-  - <a href="results_ismrm/submissions_scoring/initial/as_pdf/Merged_tabs.pdf">Ordered by submission number</a>. 
-  - <a href="results_ismrm/submissions_scoring/initial/as_pdf/Merged_tabs_ordered.pdf">Ordered by scores</a>.
-
-</details>
-
-
-
-### 2022: Results using the ROI segmentation
+### Renauld 2023: Results using the ROI segmentation
 
 These results were computed with 1) curated data (cleaner bundles, see <a href="/ismrm2015/phantom_creation"> here </a> for more explanation) and 2) segmentation of the submitted tractograms with ROIs rather than Recobundles. These results should be compared with previous versions with care as data now contains 21 bundles instead of 25. These results should be published soon in an upcoming paper. 
 
