@@ -19,9 +19,9 @@ These are the results as presented in Maier-Hein2017 (scoring based on segmentat
 
 **Please be careful!** Wrong numbers have sometimes been published in articles citing the ISMRM Challenge. Numbers previously contained on this page also presented errors. Always refer to this new table, updated as of 2022. They are in accordance with data published in 2017.
 
-<a href="/results_ismrm/submissions_scoring/initial/summary_as_image.png">
+<a href="/results_ismrm/submissions_scoring/initial/WEB_initial_scores_cleaned.xlsx">
     <figure style="float:right">
-        <img src="/results_ismrm/submissions_scoring/initial/WEB_initial_scores_cleaned.xlsx" width="100%">
+        <img src="/results_ismrm/submissions_scoring/initial/summary_as_image.png" width="100%">
         <figcaption style="text-align:center">Fig 1. Initial scores. Mean scores over all bundles, again averaged over all submitted tractograms. Click on the image to download detailed scores as an excel file.</figcaption>
     </figure>
 </a>
