@@ -31,25 +31,12 @@ These are the results as presented in Maier-Hein2017 (scoring based on segmentat
 
 These results were computed with 1) curated data (cleaner bundles, see <a href="/ismrm2015/phantom_creation"> here </a> for more explanation) and 2) segmentation of the submitted tractograms with ROIs rather than Recobundles. These results should be compared with previous versions with care as data now contains 21 bundles instead of 25. These results should be published soon in an upcoming paper. 
 
-<a href="/results_ismrm/submissions_scoring/2022_version/summary_as_image.PNG">
+<a href="/results_ismrm/submissions_scoring/2022_version/WEB_2022_scores.xlsx">
     <figure style="float:center">
         <img style="display:block; margin-left: auto; margin-right: auto; width: 80%;" src="/results_ismrm/submissions_scoring/2022_version/summary_as_image.PNG">
-        <figcaption style="text-align:center">Fig 3. Results with the cleaner ground truth bundles, with ROI segmentation. Mean scores over all bundles, again averaged over all submitted tractograms.</figcaption>
+        <figcaption style="text-align:center">Fig 3. Results with ROI segmentation. Mean scores over all bundles, again averaged over all submitted tractograms. Click on the image to download detailed scores as an excel file.</figcaption>
     </figure>
 </a>
-
-<details>
-  <summary>Click to download detailed scores</summary>
-
-You may download the details here:
-
-- <a href="/results_ismrm/submissions_scoring/2022_version/WEB_2022_scores.xlsx">Download as Excel file</a>
-- <a href="/results_ismrm/submissions_scoring/2022_version/as_html/WEB_updated_scores_new_bundle_masks.html">View results in your browser</a>
-- Load results printed as PDF: 
-  - <a href="/results_ismrm/submissions_scoring/2022_version/as_pdf/Merged.pdf">Ordered by submission number</a>.
-  - <a href="/results_ismrm/submissions_scoring/2022_version/as_pdf/Merged_ordered.pdf">Ordered by scores</a>.
-
-</details>
 
 <br>
 
