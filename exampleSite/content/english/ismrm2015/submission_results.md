@@ -24,9 +24,9 @@ These are the results as presented in the original paper (initial data, scoring 
 
 **Please be careful!** Wrong numbers have sometimes been published in papers citing the ISMRM Challenge paper. Also, numbers previously contained on this page also presented errors. Always refer to this new table. They are in accordance with data published in the 2015 paper.
 
-<a href="/results_ismrm/initial/summary_as_image.png">
+<a href="/results_ismrm/submissions_scoring/initial/summary_as_image.png">
     <figure style="float:right">
-        <img src="/results_ismrm/initial/summary_as_image.png" width="100%">
+        <img src="/results_ismrm/submissions_scoring/initial/summary_as_image.png" width="100%">
         <figcaption style="text-align:center">Fig 1. Initial scores. Mean scores over all bundles, again averaged over all submitted tractograms.</figcaption>
     </figure>
 </a>
@@ -37,11 +37,11 @@ These are the results as presented in the original paper (initial data, scoring 
 
 You may download the details here:
 
-- <a href="/results_ismrm/initial/WEB_initial_scores_cleaned.xlsx">Download as Excel file</a>
-- <a href="/results_ismrm/initial/as_html/WEB_initial_scores_cleaned.html">View results in your browser</a>
+- <a href="/results_ismrm/submissions_scoring/initial/WEB_initial_scores_cleaned.xlsx">Download as Excel file</a>
+- <a href="/results_ismrm/submissions_scoring/initial/as_html/WEB_initial_scores_cleaned.html">View results in your browser</a>
 - Load results printed as PDF:
-  - <a href="results_ismrm/initial/as_pdf/Merged_tabs.pdf">Ordered by submission number</a>. 
-  - <a href="results_ismrm/initial/as_pdf/Merged_tabs_ordered.pdf">Ordered by scores</a>.
+  - <a href="results_ismrm/submissions_scoring/initial/as_pdf/Merged_tabs.pdf">Ordered by submission number</a>. 
+  - <a href="results_ismrm/submissions_scoring/initial/as_pdf/Merged_tabs_ordered.pdf">Ordered by scores</a>.
 
 </details>
 
@@ -49,11 +49,11 @@ You may download the details here:
 
 ### 2022: Results using the ROI segmentation
 
-These results were computed with 1) curated data (cleaner bundles, see <a href="/results_ismrm/phantom_creation"> here </a> for more explanation) and 2) segmentation of the submitted tractograms with ROIs rather than Recobundles. These results should be compared with previous versions with care as data now contains 21 bundles instead of 25. These results should be published soon in an upcoming paper. 
+These results were computed with 1) curated data (cleaner bundles, see <a href="/ismrm2015/phantom_creation"> here </a> for more explanation) and 2) segmentation of the submitted tractograms with ROIs rather than Recobundles. These results should be compared with previous versions with care as data now contains 21 bundles instead of 25. These results should be published soon in an upcoming paper. 
 
-<a href="/results_ismrm/2022_version/summary_as_image.PNG">
+<a href="/results_ismrm/submissions_scoring/2022_version/summary_as_image.PNG">
     <figure style="float:center">
-        <img style="display:block; margin-left: auto; margin-right: auto; width: 80%;" src="/results_ismrm/2022_version/summary_as_image.PNG">
+        <img style="display:block; margin-left: auto; margin-right: auto; width: 80%;" src="/results_ismrm/submissions_scoring/2022_version/summary_as_image.PNG">
         <figcaption style="text-align:center">Fig 3. Results with the cleaner ground truth bundles, with ROI segmentation. Mean scores over all bundles, again averaged over all submitted tractograms.</figcaption>
     </figure>
 </a>
@@ -63,11 +63,11 @@ These results were computed with 1) curated data (cleaner bundles, see <a href="
 
 You may download the details here:
 
-- <a href="/results_ismrm/2022_version/WEB_2022_scores.xlsx">Download as Excel file</a>
-- <a href="/results_ismrm/2022_version/as_html/WEB_updated_scores_new_bundle_masks.html">View results in your browser</a>
+- <a href="/results_ismrm/submissions_scoring/2022_version/WEB_2022_scores.xlsx">Download as Excel file</a>
+- <a href="/results_ismrm/submissions_scoring/2022_version/as_html/WEB_updated_scores_new_bundle_masks.html">View results in your browser</a>
 - Load results printed as PDF: 
-  - <a href="/results_ismrm/2022_version/as_pdf/Merged.pdf">Ordered by submission number</a>.
-  - <a href="/results_ismrm/2022_version/as_pdf/Merged_ordered.pdf">Ordered by scores</a>.
+  - <a href="/results_ismrm/submissions_scoring/2022_version/as_pdf/Merged.pdf">Ordered by submission number</a>.
+  - <a href="/results_ismrm/submissions_scoring/2022_version/as_pdf/Merged_ordered.pdf">Ordered by scores</a>.
 
 </details>
 
@@ -76,4 +76,4 @@ You may download the details here:
 
 ### More
 
-Fore comparison with more recent results, you may refer to the <a href="/results_ismrm/processed_data"> Processed Data </a> page where we offer results on our lab's latest tractogram. 
+Fore comparison with more recent results, you may refer to the <a href="/results_ismrm/submissions_scoring/processed_data"> Processed Data </a> page where we offer results on our lab's latest tractogram. 
