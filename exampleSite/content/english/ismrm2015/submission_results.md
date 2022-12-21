@@ -19,10 +19,12 @@ These are the results as presented in Maier-Hein2017 (scoring based on segmentat
 
 **Please be careful!** Wrong numbers have sometimes been published in articles citing the ISMRM Challenge. Numbers previously contained on this page also presented errors. Always refer to this new table, updated as of 2022. They are in accordance with data published in 2017.
 
+You may click on the image to download detailed scores as an excel file.
+
 <a href="/results_ismrm/submissions_scoring/initial/WEB_initial_scores_cleaned.xlsx">
     <figure style="float:right">
         <img src="/results_ismrm/submissions_scoring/initial/summary_as_image.png" width="100%">
-        <figcaption style="text-align:center">Fig 1. Initial scores. Mean scores over all bundles, again averaged over all submitted tractograms. Click on the image to download detailed scores as an excel file.</figcaption>
+        <figcaption style="text-align:center">Fig 1. Initial scores. Mean scores over all bundles, again averaged over all submitted tractograms. </figcaption>
     </figure>
 </a>
 
@@ -31,16 +33,13 @@ These are the results as presented in Maier-Hein2017 (scoring based on segmentat
 
 These results were computed with 1) curated data (cleaner bundles, see <a href="/ismrm2015/phantom_creation"> here </a> for more explanation) and 2) segmentation of the submitted tractograms with ROIs rather than Recobundles. These results should be compared with previous versions with care as data now contains 21 bundles instead of 25. These results should be published soon in an upcoming paper. 
 
+You may click on the image to download detailed scores as an excel file.
+
 <a href="/results_ismrm/submissions_scoring/2022_version/WEB_2022_scores.xlsx">
     <figure style="float:center">
         <img style="display:block; margin-left: auto; margin-right: auto; width: 80%;" src="/results_ismrm/submissions_scoring/2022_version/summary_as_image.PNG">
-        <figcaption style="text-align:center">Fig 3. Results with ROI segmentation. Mean scores over all bundles, again averaged over all submitted tractograms. Click on the image to download detailed scores as an excel file.</figcaption>
+        <figcaption style="text-align:center">Fig 3. Results with ROI segmentation. Mean scores over all bundles, again averaged over all submitted tractograms.</figcaption>
     </figure>
 </a>
 
 <br>
-
-
-### More
-
-Fore comparison with more recent results, you may refer to the <a href="/results_ismrm/submissions_scoring/processed_data"> Processed Data </a> page where we offer results on our lab's latest tractogram. 
