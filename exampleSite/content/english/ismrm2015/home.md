@@ -18,7 +18,7 @@ You can find the various sections here and in the submenu:
 - <a href="/ismrm2015/phantom_creation">Description of the phantom creation process</a>.
 - <a href="/ismrm2015/dwi_data">Download page for the **DWI data** that was offered at the time of the submission.</a>
 - <a href="/ismrm2015/tools">Links to the standalone **tool**: score your own tractogram!</a>
-- <a href="/ismrm2015/sumbission_results">**Results** of the scoring of all submissions</a>
+- <a href="/ismrm2015/submission_results">**Results** of the scoring of all submissions</a>
 - <a href="/ismrm2015/processed_data">Examples of **processed data**.</a>.
 - <a href="/ismrm2015/references">**References**</a>
 
@@ -40,4 +40,4 @@ Bram Stieltjes<sup>6</sup>, Maxime Descoteaux<sup>2</sup>
 
 ### News
 
-- (2022-09-08) An example of processed data has been added in the <a href="/ismrm2015/sumbission_results">ISMRM 2015 tractography challenge results page</a>. A set of curated ground truth bundles has been added, along with code and ROIs that can be used for segmentation during scoring, in the <a href="/ismrm2015/tools">Tools page</a>.
+- (2022-09-08) An example of processed data has been added in the <a href="/ismrm2015/submission_results">ISMRM 2015 tractography challenge results page</a>. A set of curated ground truth bundles has been added, along with code and ROIs that can be used for segmentation during scoring, in the <a href="/ismrm2015/tools">Tools page</a>.
