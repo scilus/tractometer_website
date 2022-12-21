@@ -31,9 +31,8 @@ Supplementary materials:
 
 - Tractography Challenge ISMRM 2015: <a href="https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-017-01285-x/MediaObjects/41467_2017_1285_MOESM1_ESM.pdf"> Supplementary figures and description of each submitted tractogram's processing parameters</a>.
 - Tractography Challenge ISMRM 2015 Videos.  <a href="https://doi.org/10.5281/zenodo.580067"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.580067.svg" alt="DOI"></a>
-- Tractography Challenge ISMRM 2015 Submissions.  <a href="https://doi.org/10.5281/zenodo.840086"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.840086.svg" alt="DOI"></a>
 
-** See the <a href="/ismrm2015/tools">tools page</a> for links and information on the code.
+** See the <a href="/ismrm2015/tools">tools page</a> for links to the code.
 
 #### Original references
 

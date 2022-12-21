@@ -65,8 +65,6 @@ All datasets refer to the same "subject". All files necessary to run the standal
 </table>
 
 
-- All tractography data may be found in the <a href="/ismrm2015/tractography_data">Tractography data page</a>.
-
 <br>
 
 ### Archive integrity verification

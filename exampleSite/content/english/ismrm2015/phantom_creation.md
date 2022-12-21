@@ -30,9 +30,7 @@ draft: false
 #### 2022 update
 
 
-The goal of the challenge was to analyze the quality of bundles created by participating teams and compare the associated pipelines. Bundles were analyzed as whole entities, but the quality of individual streamlines composing them was not verified. In fact, they were not verified in the ground truth bundles either. Ground truth data contained short / long / looping / broken streamlines.
-
-We cleaned the ground truth tractogram. The new data is offered, together with the new scoring system, in the tools page.
+To allow the creation of good Regions of Interest (ROIs), the ground truth tractogram was curated in Renauld2023. It contained short / long / looping / broken streamlines.
 
 <img style="display:block; margin-left: auto; margin-right: auto; width: 70%;" 
   src="/images/ismrm2015/looping_fibers.png">
@@ -46,6 +44,8 @@ The list of modifications should be published soon in a journal paper. In summar
 3. Quickbundles was used on each bundle in order to inspect the variation of shape amongst streamlines. 
 4. Some sub-bundles were rejected based on visual inspection. In particular, the second tail of the ICP was judged non-anatomically verified and removed. 
 5. Finally, some bundles were modified: A) Streamlines from the ILF and OR were rejected based on manually drawn regions of interest (ROIs) to better separate the two bundles. B) CST, POPT and FPT were merged together into a new bundle called corona radiata. 
+
+The new filtered data is offered, together with the new scoring system, in the <a href="/ismrm2015/tools">Tools page</a>.
 
 <figure style="width:100%">
     <img style="display:block; margin-left: auto; margin-right: auto; width: 60%;" src="/images/ismrm2015/OR_ILF_fleche.png">
