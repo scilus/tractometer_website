@@ -10,12 +10,11 @@ draft: false
 For references on the Tractometer, see the <a href="/tractometer/references">Tractometer references page</a> for additional references to cite.
 
 
-### 2022 Update paper
+### 2023 Update paper
 
-An update paper should soon be published, including the suggested cleaning of the ground truth bundle, and the suggested new scoring based on ROI segmentation. Meanwhile, if you use this information, please cite this accepted abstract to the ISMRM 2022 Diffusion Workshop:
 
+- Renauld, E., Théberge, A., Houde, J.-C., Descoteaux, M., <a href="/papers/ISMRM_Abstract_DSG.pdf"> *Validate your white matter tractography algorithms with a reappraised ISMRM 2015 Tractography Challenge scoring system*</a>, Scientific Reports, 13:2347 (2023). <a href="https://rdcu.be/c5fJI" target="_blank">Online Enhanced PDF</a>, or  <a href="/papers/Renauld_et_al-2023-Scientific_Reports.pdf">Download PDF</a>.
 - Renauld, E., Théberge, A., Houde, J.-C., Descoteaux, M., <a href="/papers/ISMRM_Abstract_DSG.pdf"> *Update of the ISMRM 2015 Tractography Challenge: curated data and enhanced Tractometer scoring system*</a>, ISMRM Workshop on Diffusion MRI: From Research to Clinic, October 2022. 
-
 
 <br>
 

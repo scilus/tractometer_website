@@ -10,7 +10,7 @@ draft: false
 
 We offer here examples of tractograms created on carefully preprocessed data, as discussed in Renauld2023. The preprocessing choices were made *after* the publication of the <a href="/ismrm2015/references">2017 paper</a>, with knowledge available from the analysis of the results of the initial submissions. For instance, this could be used as training set in a machine learning experiment, to avoid training on the ground truth data. 
 
-**How to cite**: Please visit the <a href="/ismrm2015/references">References</a> page to cite us if you use this data. A paper (Renauld2023) is in process of being published.
+**How to cite**: Please visit the <a href="/ismrm2015/references">References</a> page to cite us if you use this data.
 
 ### Preprocessing steps
 
