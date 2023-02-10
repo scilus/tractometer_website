@@ -25,7 +25,7 @@ The code below allows anyone interested to **score their own tractogram**.
 <table style="border:1px solid #0AA8A7;width:80%;margin-left:auto; margin-right:auto;">
 
 <tr>
-<td style="width:40%;border:1px solid #0AA8A7"> <b>2022 version: ROI-based segmentation</b><br><br>
+<td style="width:40%;border:1px solid #0AA8A7"> <b>2023 version: ROI-based segmentation</b><br><br>
 
 - Scripts are offered in <a href="https://github.com/scilus/scilpy"> scilpy</a>. It can be run using the following steps: 1) Segmentation of the bundles and sub-bundles. 2) Merging back sub-bundles of the CC and ICP. 3) Scoring the final bundles.
 

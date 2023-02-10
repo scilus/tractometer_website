@@ -7,8 +7,7 @@ description: "This is meta description"
 draft: false
 ---
 
-The ISMRM 2015 Tractography Challenge seeked to evaluate and compare state-of-the-art tractography pipelines. The main bottleneck of tractography evaluation is the unavailability of groundtruths. We overcome this limitation with a new data generation process using <a href="http://docs.mitk.org/2014.10/org_mitk_views_fiberfoxview.html" target="_blank">
-    Fiberfox</a>, which allows to create a groundtruth for scoring using the <a href="http://www.medicalimageanalysisjournal.com/article/S1361-8415(13)00047-9/abstract"> Tractometer</a> online evaluation system.
+The ISMRM 2015 Tractography Challenge seeked to evaluate and compare state-of-the-art tractography pipelines. The main bottleneck of tractography evaluation is the unavailability of groundtruths. We overcome this limitation with a new data generation process using <a href="http://docs.mitk.org/2014.10/org_mitk_views_fiberfoxview.html" target="_blank"> Fiberfox</a>, which allows to create a groundtruth for scoring using the <a href="http://www.medicalimageanalysisjournal.com/article/S1361-8415(13)00047-9/abstract"> Tractometer</a> online evaluation system.
 
 The task of the challenge was to provide the best possible reconstruction of fiber pathways in a realistically simulated replication of a whole brain diffusion-weighted MR image with properties typical of a clinical acquisition. The contestants were expected to process the challenge dataset using their best processing pipeline, as if they were asked to process the dMRI data of a clinical patient to produce the best possible tractography result. There were no constraints on the processing steps or running time, as we only expected to receive the tractogram file.
 
