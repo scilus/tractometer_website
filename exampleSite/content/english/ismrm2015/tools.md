@@ -29,6 +29,8 @@ The code below allows anyone interested to **score their own tractogram**.
 
 - Scripts are offered in <a href="https://github.com/scilus/scilpy"> scilpy</a>. It can be run using the following steps: 1) Segmentation of the bundles and sub-bundles. 2) Merging back sub-bundles of the CC and ICP. 3) Scoring the final bundles.
 
+  Note: the code below runs with version 1.4.2, on python 3.7. It can be installed by downloading the release <a href="https://github.com/scilus/scilpy/releases"> here </a> and using "`pip install .`" from inside the folder. For help adapting these lines to latest versions, please contact us.
+
 <a href="/code_snippets/tools_scoring_code_2022.sh">
     <figure>
         <img src="/code_snippets/ismrm_2022_code.png" width="50%" style="display:block; margin-left: auto; margin-right: auto;">

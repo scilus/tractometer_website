@@ -74,5 +74,3 @@ The mean voxel-wise angular error between the main local tractogram fiber direct
 ### Ref
 
 [1] Cote et  al. <a href="http://www.medicalimageanalysisjournal.com/article/S1361-8415(13)00047-9/abstract" target="_blank"> Tractometer </a>.
-
-[2] (Upcoming Renauld2022).
