@@ -38,7 +38,7 @@ The code below allows anyone interested to **score their own tractogram**.
     </figure>
 </a>
 
-- This code should be used with <a href="https://scil.usherbrooke.ca/ismrm2015/scoring_data_2022-12-20_submittedNature.zip"> this scoring data </a>. It contains the bundles, the bundle masks and the configuration files to be used with the mentionned script.
+- This code should be used with <a href="https://scil.usherbrooke.ca/ismrm2015/scoring_data_Renauld2023.zip"> this scoring data </a>. It contains the bundles, the bundle masks and the configuration files to be used with the mentionned script.
 
 - These ground truth bundles were modified compared to the initial version in order to have bundles that allowed creation of ROIs. Modifications are detailed in the Renauld 2023. In short, looping and broken streamlines were discarded, and the CSF / FPT / POPT were merged as one bundle called Brainstem Projection System (BPS). This scoring technique thus offers scores for 21 bundles instead of 25.
 
