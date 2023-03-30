@@ -276,7 +276,7 @@ textarea.form-control {
 .navbar-light .navbar-nav .nav-link {
   color: #222; }
   .navbar-light .navbar-nav .nav-link:hover {
-    color: #0AA8A7; }
+    color: #066464; }
 
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 20px; }
@@ -307,7 +307,7 @@ textarea.form-control {
   color: #777;
   margin: 8px 0; }
   .footer-list a:hover {
-    color: #0AA8A7; }
+    color: #066464; }
 
 .social-icons a {
   color: #0AA8A7;
@@ -511,7 +511,7 @@ a.post-title {
     border: 0;
     color: #777; }
     .pagination .page-item .page-link:hover {
-      background: #0AA8A7;
+      background: #066464;
       color: #fff; }
     .pagination .page-item .page-link:focus {
       box-shadow: none; }

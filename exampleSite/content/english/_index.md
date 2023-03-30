@@ -49,9 +49,13 @@ The current goal for the <i>Tractometer</i> is to make it easier for people to s
 
 ### News
 
-- (2023-02-09) The update paper is now online!
+- (2023-03-29) The excel file and scoring data associated with Renauld2023 have been updated. Small fix.
+
+- (2023-02-09) The ISMRM update paper is now online!
 
 - (2022-11-21) An update of the ISMRM 2015 Tractography Challenge has been submitted for peer-review. Meanwhile, the website has already been updated. Find new data, new scores, new segmentation parameters in the <a href="/ismrm2015/home">ISMRM 2015 tractography challenge tab</a>.
+
+- (2022-09-08) An example of processed data has been added in the <a href="/ismrm2015/submission_results">ISMRM 2015 tractography challenge results page</a>. A set of curated ground truth bundles has been added, along with code and ROIs that can be used for segmentation during scoring, in the <a href="/ismrm2015/tools">Tools page</a>.
 
 - (2022-09-08) The new website should now be available again. If you find any broken links and others bugs, don't hesitate to contact us. Amongst other, many changes were made in the <a href="/ismrm2015/home">ISMRM 2015 Tractography Challenge tab</a>, visit its home page for more details.
 
