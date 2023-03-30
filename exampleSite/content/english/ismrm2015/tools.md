@@ -6,14 +6,13 @@ description: "This is meta description"
 draft: false
 ---
 
-The code below allows anyone interested to **score their own tractogram**. 
+The code below allows anyone interested to score their own tractogram. 
 <br>
 
 
-### Preparing your tractogram
+### Preparing your tractogram test
 
 ** **AN IMPORTANT NOTE ON FILE FORMAT**: Data format managing was not very well defined in 2015. A lot of effort was made to ensure that data would be readable by any software. Yet, things have evolved. As of 08.2022, in both versions of the scoring (Recobundles version through the initial standalone tool, ROIs version using scilpy scripts), tractograms are loaded through Dipy's Stateful Tractogram functions. This is particularly important if you already used the standalone tool before. Previous version of the code applied authomatic 0.5 shifts when loading files as trk. In the new python3 version, this is NOT done anymore. Please be careful: verify that final segmented bundles are well aligned with your initial tractogram, showing that space attributes were correctly interpreted.
-
 
 
 ### Ground truth data + Code
@@ -22,48 +21,31 @@ The code below allows anyone interested to **score their own tractogram**.
 
   [comment]: <> (The result is super ugly. Huge linebreaks. Can't find how to make it work. Using a picture for now.)
 
-<table style="border:1px solid #0AA8A7;width:80%;margin-left:auto; margin-right:auto;">
+#### 1) 2023 version: ROI-based segmentation
+ 
+- **Scoring data**: <a href="https://scil.usherbrooke.ca/ismrm2015/scoring_data_Renauld2023.zip"> here </a>. It contains the bundles, the bundle masks and the configuration files to be used with the mentionned script. - These ground truth bundles were modified compared to the initial version in order to have bundles that allowed creation of ROIs. Modifications are detailed in the Renauld 2023. In short, looping and broken streamlines were discarded, and the CSF / FPT / POPT were merged as one bundle called Brainstem Projection System (BPS). This scoring technique thus offers scores for 21 bundles instead of 25.
 
-<tr>
-<td style="width:40%;border:1px solid #0AA8A7"> <b>2023 version: ROI-based segmentation</b><br><br>
-
-- Scripts are offered in <a href="https://github.com/scilus/scilpy"> scilpy</a>. It can be run using the following steps: 1) Segmentation of the bundles and sub-bundles. 2) Merging back sub-bundles of the CC and ICP. 3) Scoring the final bundles.
-
-  Note: the code below runs with version 1.4.2, on python 3.7. It can be installed by downloading the release <a href="https://github.com/scilus/scilpy/releases"> here </a> and using "`pip install .`" from inside the folder. For help adapting these lines to latest versions, please contact us.
+- **Scripts**: Here is the <a href="/code_snippets/tools_scoring_code_2022.sh"> link to the bash script </a>. The process is divided into the following steps: 1) Segmentation of the bundles and sub-bundles. 2) Merging back sub-bundles of the CC and ICP. 3) Scoring the final bundles. Results are then stored in the results.json file. The python scripts used are from <a href="https://github.com/scilus/scilpy"> scilpy</a>. They run with version 1.4.2, which uses python 3.7 and can be installed by downloading the release <a href="https://github.com/scilus/scilpy/releases"> here </a> and using "`pip install .`" from inside the folder.  For help adapting these lines to later versions, please contact us or check <a href=https://github.com/scil-vital/dwi_ml/blob/master/bash_utilities/scil_score_ismrm_Renauld2023.sh> here </a>.
 
 <a href="/code_snippets/tools_scoring_code_2022.sh">
     <figure>
-        <img src="/code_snippets/ismrm_2022_code.png" width="50%" style="display:block; margin-left: auto; margin-right: auto;">
-        <figcaption style="text-align:center">Click on the figure to download the bash script.</figcaption>
+        <img src="/code_snippets/ismrm_2022_code.png" width="30%" style="display:block; margin-left: auto; margin-right: auto;">
     </figure>
 </a>
 
-- This code should be used with <a href="https://scil.usherbrooke.ca/ismrm2015/scoring_data_Renauld2023.zip"> this scoring data </a>. It contains the bundles, the bundle masks and the configuration files to be used with the mentionned script.
 
-- These ground truth bundles were modified compared to the initial version in order to have bundles that allowed creation of ROIs. Modifications are detailed in the Renauld 2023. In short, looping and broken streamlines were discarded, and the CSF / FPT / POPT were merged as one bundle called Brainstem Projection System (BPS). This scoring technique thus offers scores for 21 bundles instead of 25.
-
-</td>
-</tr>
-
-
-
-
-<tr>
-<td style="width:40%"> <b>2015 version: Recobundles-based segmentation</b><br><br>
+#### 2) 2015 version: Recobundles-based segmentation</b><br><br>
 
 - <a href="https://github.com/scilus/ismrm_2015_tractography_challenge_scoring"> Link to the Github repository containing the code </a>. Code was updated to python3 as of 08.2022. The only changes concern processing speed, and tractogram format management, as described above. When used to score the 2015 submissions, it generates the exact same results as in the paper. Any remaining issue was already present at the time. The version v1.0.1 released in 2015, in python2 and deprecated, is still available. 
 
 - An example of command line is given in the README file. <a href="https://doi.org/10.5281/zenodo.810130"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.810130.svg" alt="DOI"></a>
 
-- Should be used with <a href="https://scil.usherbrooke.ca/ismrm2015/scoring_data_tractography_challenge.tar.gz"> this scoring_data </a>, which contains the bundles, the bundle masks and a configuration file with all parameters necessary for Recobundles.
-</td>
-</tr>
-
-</table>
-
-
+- **Scoring data**: Should be used with <a href="https://scil.usherbrooke.ca/ismrm2015/scoring_data_tractography_challenge.tar.gz"> this scoring_data </a>, which contains the bundles, the bundle masks and a configuration file with all parameters necessary for Recobundles.
 
   [comment]: <> (md5 TCK: 1fee5fb38db7fcf924984add25d2b370. TRK: 4efe8b07a9cc5cbbd96227ca255ccd5a)
+
+
+<br>
 
 ### History: why we made two versions
 

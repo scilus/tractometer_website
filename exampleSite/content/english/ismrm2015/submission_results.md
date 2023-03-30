@@ -6,6 +6,8 @@ description: "This is meta description"
 draft: false
 ---
 
+    [comment]: <> (The scores files are also on:)
+    [comment]: <> (BrainData/databases/ismrm_2015/derivatives/submissions_scoring/output/comparing_scores_all_version)
 
 
 ### Link to all the raw submission files
@@ -21,7 +23,7 @@ These are the results as presented in Maier-Hein2017 (scoring based on segmentat
 
 You may click on the image to download detailed scores as an excel file.
 
-<a href="/results_ismrm/submissions_scoring/initial/WEB_initial_scores_cleaned.xlsx">
+<a href="/results_ismrm/submissions_scoring/initial/version2015_all_scores_WEB.xlsx">
     <figure style="float:right">
         <img src="/results_ismrm/submissions_scoring/initial/summary_as_image.png" width="100%">
         <figcaption style="text-align:center">Fig 1. Initial scores. Mean scores over all bundles, again averaged over all submitted tractograms. </figcaption>
@@ -35,7 +37,7 @@ These results were computed with 1) curated data (cleaner bundles, see <a href="
 
 You may click on the image to download detailed scores as an excel file.
 
-<a href="/results_ismrm/submissions_scoring/2022_version/WEB_2022_scores.xlsx">
+<a href="/results_ismrm/submissions_scoring/2022_version/version2022_LATEST_03_2023_WEB.xlsx">
     <figure style="float:center">
         <img style="display:block; margin-left: auto; margin-right: auto; width: 80%;" src="/results_ismrm/submissions_scoring/2022_version/summary_as_image.PNG">
         <figcaption style="text-align:center">Fig 3. Results with ROI segmentation. Mean scores over all bundles, again averaged over all submitted tractograms.</figcaption>
