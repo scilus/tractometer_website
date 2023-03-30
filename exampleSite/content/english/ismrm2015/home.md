@@ -36,9 +36,3 @@ Bram Stieltjes<sup>6</sup>, Maxime Descoteaux<sup>2</sup>
 <sup>4</sup><a href="http://hardi.epfl.ch/" target="_blank">Signal Processing Lab (LTS5)</a>, Ecole Polytechnique Federale de Lausanne, Switzerland
 <sup>5</sup><a href="https://www.drcmr.dk/map" target="_blank">Diffusion Imaging Group</a>, <a href="http://www.drcmr.dk" target="_blank">Danish Research Centre for Magnetic Resonance (DRCMR)</a>, Denmark
 <sup>6</sup><a href="https://app.patientwing.com/organization/university-hospital-basel-clinic-for-radiology-and-nuclear-medic" target="_blank">University Hospital Basel, Radiology & Nuclear Medicine Clinic</a>
-
-### News
-
-- (2023-03-29) The excel file and scoring data associated with Renauld2023 have been updated. Small fix.
-- (2023-02-09) The update paper is now online! 
-- (2022-09-08) An example of processed data has been added in the <a href="/ismrm2015/submission_results">ISMRM 2015 tractography challenge results page</a>. A set of curated ground truth bundles has been added, along with code and ROIs that can be used for segmentation during scoring, in the <a href="/ismrm2015/tools">Tools page</a>.
