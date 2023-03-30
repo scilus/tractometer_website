@@ -6,8 +6,8 @@ description: "This is meta description"
 draft: false
 ---
 
-    [comment]: <> (The scores files are also on:)
-    [comment]: <> (BrainData/databases/ismrm_2015/derivatives/submissions_scoring/output/comparing_scores_all_version)
+  [comment]: <> (The scores files are also on:)
+  [comment]: <> (BrainData/databases/ismrm_2015/derivatives/submissions_scoring/output/comparing_scores_all_version)
 
 
 ### Link to all the raw submission files
