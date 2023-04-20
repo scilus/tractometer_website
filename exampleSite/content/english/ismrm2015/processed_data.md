@@ -7,6 +7,9 @@ description: "This is meta description"
 draft: false
 ---
 
+***ERRATUM**: In Renauld2023, it is stated that this processed data F1 scores of up to 64%. However, unfortunately, the non-recovered bundles (here 2; CA and CC) were forgotten in this average, which now reach up to 58%. Correct scores are now shown on figure below.
+
+<br>
 
 We offer here examples of tractograms created on carefully preprocessed data, as discussed in Renauld2023. The preprocessing choices were made *after* the publication of the <a href="/ismrm2015/references">2017 paper</a>, with knowledge available from the analysis of the results of the initial submissions. For instance, this could be used as training set in a machine learning experiment, to avoid training on the ground truth data. 
 
