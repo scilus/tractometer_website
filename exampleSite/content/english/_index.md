@@ -49,7 +49,7 @@ The current goal for the <i>Tractometer</i> is to make it easier for people to s
 
 ### News
 
-- (2023-03-29) The excel file and scoring data associated with Renauld2023 have been updated. Small fix.
+- (2023-03-29) The Excel file and scoring data associated with Renauld2023 have been updated. Small fix.
 
 - (2023-02-09) The ISMRM update paper is now online!
 

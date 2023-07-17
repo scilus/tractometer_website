@@ -12,7 +12,7 @@ The code below allows anyone interested to score their own tractogram.
 
 ### Preparing your tractogram test
 
-** **AN IMPORTANT NOTE ON FILE FORMAT**: Data format managing was not very well defined in 2015. A lot of effort was made to ensure that data would be readable by any software. Yet, things have evolved. As of 08.2022, in both versions of the scoring (Recobundles version through the initial standalone tool, ROIs version using scilpy scripts), tractograms are loaded through Dipy's Stateful Tractogram functions. This is particularly important if you already used the standalone tool before. Previous version of the code applied authomatic 0.5 shifts when loading files as trk. In the new python3 version, this is NOT done anymore. Please be careful: verify that final segmented bundles are well aligned with your initial tractogram, showing that space attributes were correctly interpreted.
+** **AN IMPORTANT NOTE ON FILE FORMAT**: Data format managing was not very well-defined in 2015. A lot of effort was made to ensure that data would be readable by any software. Yet, things have evolved. As of 08.2022, in both versions of the scoring (Recobundles version through the initial standalone tool, ROIs version using scilpy scripts), tractograms are loaded through Dipy's Stateful Tractogram functions. This is particularly important if you already used the standalone tool before. Previous version of the code applied authomatic 0.5 shifts when loading files as trk. In the new python3 version, this is NOT done anymore. Please be careful: verify that final segmented bundles are well aligned with your initial tractogram, showing that space attributes were correctly interpreted.
 
 
 ### Ground truth data + Code
@@ -36,7 +36,7 @@ The code below allows anyone interested to score their own tractogram.
 
 #### 2) 2015 version: Recobundles-based segmentation</b><br><br>
 
-- <a href="https://github.com/scilus/ismrm_2015_tractography_challenge_scoring"> Link to the Github repository containing the code </a>. Code was updated to python3 as of 08.2022. The only changes concern processing speed, and tractogram format management, as described above. When used to score the 2015 submissions, it generates the exact same results as in the paper. Any remaining issue was already present at the time. The version v1.0.1 released in 2015, in python2 and deprecated, is still available. 
+- <a href="https://github.com/scilus/ismrm_2015_tractography_challenge_scoring"> Link to the GitHub repository containing the code </a>. Code was updated to python3 as of 08.2022. The only changes concern processing speed, and tractogram format management, as described above. When used to score the 2015 submissions, it generates the exact same results as in the paper. Any remaining issue was already present at the time. The version v1.0.1 released in 2015, in python2 and deprecated, is still available. 
 
 - An example of command line is given in the README file. <a href="https://doi.org/10.5281/zenodo.810130"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.810130.svg" alt="DOI"></a>
 

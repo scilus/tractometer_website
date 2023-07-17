@@ -20,7 +20,7 @@ All submissions files are downloadable through <a href="https://doi.org/10.5281/
 
 These results are as presented in <a href=/ismrm2015/references> Renauld2023 </a>, with 1) curated data and 2) segmentation of the submitted tractograms with ROIs rather than Recobundles. These results should be compared with previous versions with care as data now contains 21 bundles instead of 25. 
 
-You may click on the image to download detailed scores as an excel file.
+You may click on the image to download detailed scores as an Excel file.
 
 <a href="/results_ismrm/submissions_scoring/2022_version/version2022_LATEST_03_2023_WEB.xlsx">
     <figure style="float:center">
@@ -36,7 +36,7 @@ These are the results as presented in Maier-Hein2017 (scoring based on segmentat
 
 **Please be careful!** Wrong numbers have sometimes been published in articles citing the ISMRM Challenge. Numbers previously contained on this page also presented errors. Always refer to this new table, updated as of 2022. They are in accordance with data published in 2017.
 
-You may click on the image to download detailed scores as an excel file.
+You may click on the image to download detailed scores as an Excel file.
 
 <a href="/results_ismrm/submissions_scoring/initial/version2015_all_scores_WEB.xlsx">
     <figure style="float:right">

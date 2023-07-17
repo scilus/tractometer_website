@@ -7,7 +7,7 @@ description: "This is meta description"
 draft: false
 ---
 
-***ERRATUM**: In Renauld2023, it is stated that this processed data F1 scores of up to 64%. However, unfortunately, the non-recovered bundles (here 2; CA and CC) were forgotten in this average, which now reach up to 58%. Correct scores are now shown on figure below.
+***ERRATUM**: In Renauld2023, it is stated that this processed data F1 scores of up to 64%. However, unfortunately, the non-recovered bundles (here 2; CA and CP) were forgotten in this average, which now reach up to 58%. Correct scores are now shown on figure below.
 
 <br>
 
@@ -34,6 +34,6 @@ We verified data quality by scoring the three tractograms with the ROI-based sco
 <a href="/results_ismrm/example_of_processed_data/withReversed_scoring_2022/Results_WithReversed.xlsx">
     <figure style="float:right">
         <img src="/results_ismrm/example_of_processed_data/withReversed_scoring_2022/Results_WithReversed.jpg" width="90%">
-        <figcaption style="text-align:center">Results of the ROI-based scoring on the withReversed processed data. Click on the image to download as an excel file.</figcaption>
+        <figcaption style="text-align:center">Results of the ROI-based scoring on the withReversed processed data. Click on the image to download as an Excel file.</figcaption>
     </figure>
 </a>
