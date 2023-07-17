@@ -7,7 +7,7 @@ description: "This is meta description"
 draft: false
 ---
 
-***ERRATUM**: In Renauld2023, it is stated that this processed data F1 scores of up to 64%. However, unfortunately, the non-recovered bundles (here 2; CA and CC) were forgotten in this average, which now reach up to 58%. Correct scores are now shown on figure below.
+***ERRATUM**: In Renauld2023, it is stated that this processed data F1 scores of up to 64%. However, unfortunately, the non-recovered bundles (here 2; CA and CP) were forgotten in this average, which now reach up to 58%. Correct scores are now shown on figure below.
 
 <br>
 
