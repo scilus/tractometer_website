@@ -25,6 +25,8 @@ The clinical-style challenge dataset consists of a 2mm isotropic diffusion acqui
 
 All datasets refer to the same "subject". All files necessary to run the standalone scoring script -- config file, masks of the bundles (along with the ground-truth bundles) -- are available in the <a href="/ismrm2015/tools">Tools</a> tab.
 
+<b> Warning for MRtrix users </b> As per <a href="https://community.mrtrix.org/t/mrconvert-flips-gradients/581"> this thread </a> on the MRtrix forums, the gradient vectors of this dataset are not handled properly by <i>mrconvert</i> (or there was an error while generating them with MITK). This results in flipped ODFs (most apparent in the corpus callosum) and poor tracking results. You can fix this issue by changing the sign of the "x" components in the .bvec file. This can be done manually or by using <i>dwigradcheck</i>.
+
 <table style="border:1px solid #0AA8A7">
 <tr>
 <td style="width:50%">
