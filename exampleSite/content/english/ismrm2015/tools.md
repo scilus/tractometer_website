@@ -35,7 +35,7 @@ The code below allows anyone interested in scoring their own tractogram.
   
   - **scilpy version 2.2.0**: After version 2.2.0, the '.py' suffix of all scilpy scripts were dropped. You may delete them in the original bash script or download the <a href="/code_snippets/scil_score_ismrm_Renauld2023_scilpy2.2.0.sh"> updated bash script here </a>.
 
-  - **scilpy version 2.2.2 and more**: After version 2.2.2, the config_file for tractometry changed. You may use <a href="/code_snippets/config_file_tractometry_scilpy2.2.2.sh"> this new config file </a> to replace the one in the zip file.
+  - **scilpy version 2.2.2 and more**: The same <a href="/code_snippets/scil_score_ismrm_Renauld2023_scilpy2.2.0.sh"> updated bash script</a> still works, but after version 2.2.2, the config_file for tractometry changed. You may use <a href="/code_snippets/config_file_tractometry_scilpy2.2.2.sh"> this new config file </a> to replace the one in the zip file.
 
   - Later versions: For help adapting these lines to later versions, please contact us.
 
