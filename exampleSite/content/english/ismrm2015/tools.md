@@ -10,7 +10,7 @@ The code below allows anyone interested in scoring their own tractogram.
 <br>
 
 
-### Preparing your tractogram test
+### Preparing your tractogram
 
 ** **AN IMPORTANT NOTE ON FILE FORMAT**: Data format managing was not very well-defined in 2015. A lot of effort was made to ensure that data would be readable by any software. Yet, things have evolved. As of 08.2022, in both versions of the scoring (Recobundles version through the initial standalone tool, ROIs version using scilpy scripts), tractograms are loaded through Dipy's Stateful Tractogram functions. This is particularly important if you already used the standalone tool before. Previous version of the code applied authomatic 0.5 shifts when loading files as trk. In the new python3 version, this is NOT done anymore. Please be careful: verify that final segmented bundles are well aligned with your initial tractogram, showing that space attributes were correctly interpreted.
 
@@ -35,7 +35,7 @@ The code below allows anyone interested in scoring their own tractogram.
   
   - **scilpy version 2.2.0**: After version 2.2.0, the '.py' suffix of all scilpy scripts were dropped. You may delete them in the original bash script or download the <a href="/code_snippets/scil_score_ismrm_Renauld2023_scilpy2.2.0.sh"> updated bash script here </a>.
 
-  - **scilpy version 2.2.2 and more**: The same <a href="/code_snippets/scil_score_ismrm_Renauld2023_scilpy2.2.0.sh"> updated bash script</a> still works, but after version 2.2.2, the config_file for tractometry changed. You may use <a href="/code_snippets/config_file_tractometry_scilpy2.2.2.sh"> this new config file </a> to replace the one in the zip file.
+  - **scilpy version 2.2.2 and more**: The same <a href="/code_snippets/scil_score_ismrm_Renauld2023_scilpy2.2.0.sh"> updated bash script</a> still works, but after version 2.2.2, the config_file for tractometry changed. You may use <a href="/code_snippets/config_file_tractometry_scilpy2.2.2.json"> this new config file </a> to replace the one in the zip file.
 
   - Later versions: For help adapting these lines to later versions, please contact us.
 
