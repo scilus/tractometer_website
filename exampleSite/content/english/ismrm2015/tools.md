@@ -6,13 +6,15 @@ description: "This is meta description"
 draft: false
 ---
 
-The code below allows anyone interested to score their own tractogram. 
+The code below allows anyone interested in scoring their own tractogram. 
 <br>
 
 
 ### Preparing your tractogram test
 
 ** **AN IMPORTANT NOTE ON FILE FORMAT**: Data format managing was not very well-defined in 2015. A lot of effort was made to ensure that data would be readable by any software. Yet, things have evolved. As of 08.2022, in both versions of the scoring (Recobundles version through the initial standalone tool, ROIs version using scilpy scripts), tractograms are loaded through Dipy's Stateful Tractogram functions. This is particularly important if you already used the standalone tool before. Previous version of the code applied authomatic 0.5 shifts when loading files as trk. In the new python3 version, this is NOT done anymore. Please be careful: verify that final segmented bundles are well aligned with your initial tractogram, showing that space attributes were correctly interpreted.
+
+** **AN IMPORTANT NOTE ON SPACE MANAGEMENT**: In both versions, the final tractogram is expected to be in the T1 space to be scored. If you worked in the DWI space (very common), you probably have a registration matrix. You can apply its inverse to your final tractogram to send it back in T1 space (e.g., see scil_tractogram_apply_transform). Another possibility is to just pretend that your tractogram is in T1 space, because in practice, the T1 space and DWI space are closely aligned. Then, use a tractogram format that does not include space information in its header (e.g., .tck instead of .trk).
 
 
 ### Ground truth data + Code
@@ -23,15 +25,20 @@ The code below allows anyone interested to score their own tractogram.
 
 #### 1) 2023 version: ROI-based segmentation
  
-- **Scoring data**: <a href="https://scil.usherbrooke.ca/ismrm2015/scoring_data_Renauld2023.zip"> here </a>. It contains the bundles, the bundle masks and the configuration files to be used with the mentionned script. - These ground truth bundles were modified compared to the initial version in order to have bundles that allowed creation of ROIs. Modifications are detailed in the Renauld 2023. In short, looping and broken streamlines were discarded, and the CSF / FPT / POPT were merged as one bundle called Brainstem Projection System (BPS). This scoring technique thus offers scores for 21 bundles instead of 25.
+- **Scoring data**: The required data (bundles, ROIS, config_files) can be downloaded <a href="https://scil.usherbrooke.ca/ismrm2015/scoring_data_Renauld2023.zip">here</a>. This zip file contains the bundles, the bundle masks and the configuration files to be used with the script, as detailed below. These ground truth bundles were modified compared to the initial version (Maier-Hein et al., 2017) in order to have bundles that allowed creation of ROIs. Modifications are detailed in <a href="/ismrm2015/references">Renauld et al., 2023</a>. In short, looping and broken streamlines were discarded, and the CSF / FPT / POPT were merged as one bundle called Brainstem Projection System (BPS). This scoring technique thus offers scores for 21 bundles instead of 25.
 
-- **Scripts**: Here is the <a href="/code_snippets/scil_score_ismrm_Renauld2023.sh"> link to the bash script </a>. The process is divided into the following steps: 1) Segmentation of the bundles and sub-bundles. 2) Merging back sub-bundles of the CC and ICP. 3) Scoring the final bundles. Results are then stored in the results.json file. The python scripts used are from <a href="https://github.com/scilus/scilpy"> scilpy</a>. They run with version 1.5.0, which uses python 3.7 and can be installed by downloading the release <a href="https://github.com/scilus/scilpy/releases"> here </a> and using "`pip install .`" from inside the folder.  For help adapting these lines to later versions, please contact us or check <a href=https://github.com/scil-vital/dwi_ml/blob/master/bash_utilities/scil_score_ismrm_Renauld2023.sh> here </a>. Note that if you are a user of <a href="https://dwi-ml.readthedocs.io/en/latest/"> DWI_ML </a>, this script is installed as part of the package.
+- **Script**: The bash script is available below, based on your scilpy version. The process is divided into the following steps: 1) Segmentation of the bundles and sub-bundles, 2) merging back sub-bundles of the CC and ICP, and 3) scoring the final bundles. Results are then stored in a results.json file. The bash script uses python scripts from the <a href="https://github.com/scilus/scilpy"> scilpy</a> library <a href="https://apertureneuro.org/article/154022-tractography-analysis-with-the-scilpy-toolbox"> (Renauld et al., 2026)</a>. The original scilpy version at the time of publication was 1.5.0, but you can use any scilpy version:
 
-<a href="/code_snippets/scil_score_ismrm_Renauld2023.sh">
-    <figure>
-        <img src="/code_snippets/ismrm_2022_code.png" width="30%" style="display:block; margin-left: auto; margin-right: auto;">
-    </figure>
-</a>
+  - **scilpy version 1.5.0 to 1.x.x**: Here is the <a href="/code_snippets/scil_score_ismrm_Renauld2023.sh"> link to the bash script </a>. This scilpy version use python 3.7 and can be installed by downloading the <a href="https://github.com/scilus/scilpy/releases">release here</a> and using "`pip install .`" from inside the folder. 
+
+  - **scilpy version 2.0.0 to 2.1.x**: The same <a href="/code_snippets/scil_score_ismrm_Renauld2023.sh"> bash script </a> still works. Many scilpy versions after 2.0.0 are now directly available for installation through <a href="https://pypi.org/project/scilpy/"> Pipy </a> (using "`pip install scilpy`") on python 3.10.
+  
+  - **scilpy version 2.2.0**: After version 2.2.0, the '.py' suffix of all scilpy scripts were dropped. You may delete them in the original bash script or download the <a href="/code_snippets/scil_score_ismrm_Renauld2023_scilpy2.2.0.sh"> updated bash script here </a>.
+
+  - **scilpy version 2.2.2 and more**: The same <a href="/code_snippets/scil_score_ismrm_Renauld2023_scilpy2.2.0.sh"> updated bash script</a> still works, but after version 2.2.2, the config_file for tractometry changed. You may use <a href="/code_snippets/config_file_tractometry_scilpy2.2.2.sh"> this new config file </a> to replace the one in the zip file.
+
+  - Later versions: For help adapting these lines to later versions, please contact us.
+
 
 
 #### 2) 2015 version: Recobundles-based segmentation</b><br><br>
