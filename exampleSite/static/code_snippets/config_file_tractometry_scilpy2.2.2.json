@@ -1,0 +1,23 @@
+{
+  "CA": "bundles/CA.trk",
+  "CC": "bundles/CC.trk",
+  "CP": "bundles/CP.trk",
+  "MCP": "bundles/MCP.trk",
+  "Fornix": "bundles/Fornix.trk",
+  "Cingulum_left": "bundles/Cingulum_left.trk",
+  "Cingulum_right": "bundles/Cingulum_right.trk",
+  "BPS_left": "bundles/BPS_left.trk",
+  "BPS_right": "bundles/BPS_right.trk",
+  "ICP_left": "bundles/ICP_left.trk",
+  "ICP_right": "bundles/ICP_right.trk",
+  "ILF_left": "bundles/ILF_left.trk",
+  "ILF_right": "bundles/ILF_right.trk",
+  "OR_left": "bundles/OR_left.trk",
+  "OR_right": "bundles/OR_right.trk",
+  "SCP_left": "bundles/SCP_left.trk",
+  "SCP_right": "bundles/SCP_right.trk",
+  "SLF_left": "bundles/SLF_left.trk",
+  "SLF_right": "bundles/SLF_right.trk",
+  "UF_left": "bundles/UF_left.trk",
+  "UF_right": "bundles/UF_right.trk"
+}
